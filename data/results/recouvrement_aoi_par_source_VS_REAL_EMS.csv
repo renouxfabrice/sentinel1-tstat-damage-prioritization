@@ -1,0 +1,85 @@
+source,zone,kind,pct_coverage
+mapswipe,la_guaira,vector_aoi,93.6
+mapswipe,catia_la_mar,vector_aoi,98.5
+mapswipe,caraballeda,vector_aoi,97.3
+mapswipe,Caracas,vector_aoi,73.0
+mapswipe,Moron,vector_aoi,91.4
+mapswipe,San Felipe,vector_aoi,0.0
+chatmap,la_guaira,vector_aoi,100.0
+chatmap,catia_la_mar,vector_aoi,100.0
+chatmap,caraballeda,vector_aoi,100.0
+chatmap,Caracas,vector_aoi,100.0
+chatmap,Moron,vector_aoi,0.0
+chatmap,San Felipe,vector_aoi,0.0
+disha,la_guaira,vector_aoi,37.8
+disha,catia_la_mar,vector_aoi,71.2
+disha,caraballeda,vector_aoi,0.0
+disha,Caracas,vector_aoi,0.0
+disha,Moron,vector_aoi,0.0
+disha,San Felipe,vector_aoi,0.0
+ems,la_guaira,vector_aoi,100.0
+ems,catia_la_mar,vector_aoi,100.0
+ems,caraballeda,vector_aoi,100.0
+ems,Caracas,vector_aoi,100.0
+ems,Moron,vector_aoi,100.0
+ems,San Felipe,vector_aoi,100.0
+eos,la_guaira,raster_extent,100.0
+eos,catia_la_mar,raster_extent,100.0
+eos,caraballeda,raster_extent,100.0
+eos,Caracas,raster_extent,100.0
+eos,Moron,raster_extent,100.0
+eos,San Felipe,raster_extent,0.0
+fair,la_guaira,vector_aoi,58.0
+fair,catia_la_mar,vector_aoi,98.5
+fair,caraballeda,vector_aoi,97.3
+fair,Caracas,vector_aoi,73.0
+fair,Moron,vector_aoi,91.1
+fair,San Felipe,vector_aoi,0.0
+impact,la_guaira,vector_aoi,100.0
+impact,catia_la_mar,vector_aoi,100.0
+impact,caraballeda,vector_aoi,100.0
+impact,Caracas,vector_aoi,100.0
+impact,Moron,vector_aoi,100.0
+impact,San Felipe,vector_aoi,29.1
+microsoft,la_guaira,vector_aoi,100.0
+microsoft,catia_la_mar,vector_aoi,99.7
+microsoft,caraballeda,vector_aoi,83.3
+microsoft,Caracas,vector_aoi,0.0
+microsoft,Moron,vector_aoi,0.0
+microsoft,San Felipe,vector_aoi,0.0
+nasa_s1,la_guaira,raster_extent,100.0
+nasa_s1,catia_la_mar,raster_extent,100.0
+nasa_s1,caraballeda,raster_extent,100.0
+nasa_s1,Caracas,raster_extent,100.0
+nasa_s1,Moron,raster_extent,0.0
+nasa_s1,San Felipe,raster_extent,0.0
+nasa_s2,la_guaira,raster_extent,100.0
+nasa_s2,catia_la_mar,raster_extent,100.0
+nasa_s2,caraballeda,raster_extent,100.0
+nasa_s2,Caracas,raster_extent,100.0
+nasa_s2,Moron,raster_extent,0.0
+nasa_s2,San Felipe,raster_extent,0.0
+osu,la_guaira,vector_aoi,100.0
+osu,catia_la_mar,vector_aoi,100.0
+osu,caraballeda,vector_aoi,100.0
+osu,Caracas,vector_aoi,100.0
+osu,Moron,vector_aoi,100.0
+osu,San Felipe,vector_aoi,100.0
+uhsail,la_guaira,vector_aoi,100.0
+uhsail,catia_la_mar,vector_aoi,100.0
+uhsail,caraballeda,vector_aoi,100.0
+uhsail,Caracas,vector_aoi,100.0
+uhsail,Moron,vector_aoi,100.0
+uhsail,San Felipe,vector_aoi,0.0
+unep,la_guaira,vector_aoi,81.6
+unep,catia_la_mar,vector_aoi,92.0
+unep,caraballeda,vector_aoi,94.4
+unep,Caracas,vector_aoi,31.3
+unep,Moron,vector_aoi,99.7
+unep,San Felipe,vector_aoi,100.0
+ungsc,la_guaira,raster_extent,100.0
+ungsc,catia_la_mar,raster_extent,100.0
+ungsc,caraballeda,raster_extent,100.0
+ungsc,Caracas,raster_extent,100.0
+ungsc,Moron,raster_extent,0.0
+ungsc,San Felipe,raster_extent,0.0

@@ -1,0 +1,55 @@
+auc_chatmap;auc_ems;lecture;membres;moyenne;n_chatmap;n_emprise;n_ems;pos_chatmap;pos_ems;score
+0.7538;0.7268;A - emprise des huit;;0.7403;148159;148159;148159;48;1558;notre T-stat seul
+0.7354;0.7294;A - emprise des huit;;0.7324;148159;148159;148159;48;1558;OSU seul
+0.7748;0.7522;A - emprise des huit;notre T-stat + OSU;0.7635;148159;148159;148159;48;1558;fusion moyenne_ponderee
+0.7749;0.7516;A - emprise des huit;notre T-stat + OSU;0.7632;148159;148159;148159;48;1558;fusion moyenne
+0.6935;0.6998;A - emprise des huit;notre T-stat + OSU;0.6966;148159;148159;148159;48;1558;fusion maximum
+0.777;0.7406;A - emprise des huit;notre T-stat + OSU;0.7588;148159;148159;148159;48;1558;fusion minimum
+0.544;0.511;A - emprise des huit;;0.5275;148159;148159;148159;48;1558;NASA DRCS S1 seul
+0.7187;0.7131;A - emprise des huit;;0.7159;148159;148159;148159;48;1558;NASA DRCS S2 seul
+0.4869;0.4958;A - emprise des huit;;0.4914;148159;148159;148159;48;1558;IMPACT Initiatives seul
+0.5999;0.6505;A - emprise des huit;;0.6252;148159;148159;148159;48;1558;UNGSC seul
+0.6305;0.5942;A - emprise des huit;;0.6123;148159;148159;148159;48;1558;fAIr HOTOSM seul
+0.4686;0.658;A - emprise des huit;;0.5633;148159;148159;148159;48;1558;UH SAIL seul
+0.7538;0.7268;A - emprise des huit (fusion des 12);;0.7403;148159;148159;148159;48;1558;notre T-stat seul
+0.7109;0.7381;A - emprise des huit (fusion des 12);;0.7245;63336;148159;63336;29;728;BDPM (notre reproduction) seul
+0.6601;0.625;A - emprise des huit (fusion des 12);;0.6425;24025;148159;24025;35;1149;EOS-RS seul
+0.7354;0.7294;A - emprise des huit (fusion des 12);;0.7324;148159;148159;148159;48;1558;OSU seul
+0.544;0.511;A - emprise des huit (fusion des 12);;0.5275;148159;148159;148159;48;1558;NASA DRCS S1 seul
+0.7187;0.7131;A - emprise des huit (fusion des 12);;0.7159;148159;148159;148159;48;1558;NASA DRCS S2 seul
+0.4869;0.4958;A - emprise des huit (fusion des 12);;0.4914;148159;148159;148159;48;1558;IMPACT Initiatives seul
+0.5999;0.6505;A - emprise des huit (fusion des 12);;0.6252;148159;148159;148159;48;1558;UNGSC seul
+0.5897;0.5768;A - emprise des huit (fusion des 12);;0.5833;57380;148159;57380;40;1558;Microsoft AI for Good seul
+0.6305;0.5942;A - emprise des huit (fusion des 12);;0.6123;148159;148159;148159;48;1558;fAIr HOTOSM seul
+;0.3816;A - emprise des huit (fusion des 12);;;29311;148159;29311;12;983;DISHA seul
+0.4686;0.658;A - emprise des huit (fusion des 12);;0.5633;148159;148159;148159;48;1558;UH SAIL seul
+0.7705;0.7735;A - emprise des huit (fusion des 12);notre T-stat + BDPM (notre reproduction) + EOS-RS + OSU + NASA DRCS S1 + NASA DRCS S2 + IMPACT Initiatives + UNGSC + Microsoft AI for Good + fAIr HOTOSM + DISHA + UH SAIL;0.772;148159;148159;148159;48;1558;fusion moyenne_ponderee
+0.7414;0.707;A - emprise des huit (fusion des 12);notre T-stat + BDPM (notre reproduction) + EOS-RS + OSU + NASA DRCS S1 + NASA DRCS S2 + IMPACT Initiatives + UNGSC + Microsoft AI for Good + fAIr HOTOSM + DISHA + UH SAIL;0.7242;148159;148159;148159;48;1558;fusion moyenne
+0.715;0.6705;A - emprise des huit (fusion des 12);notre T-stat + BDPM (notre reproduction) + EOS-RS + OSU + NASA DRCS S1 + NASA DRCS S2 + IMPACT Initiatives + UNGSC + Microsoft AI for Good + fAIr HOTOSM + DISHA + UH SAIL;0.6927;148159;148159;148159;48;1558;fusion maximum
+0.6217;0.5927;A - emprise des huit (fusion des 12);notre T-stat + BDPM (notre reproduction) + EOS-RS + OSU + NASA DRCS S1 + NASA DRCS S2 + IMPACT Initiatives + UNGSC + Microsoft AI for Good + fAIr HOTOSM + DISHA + UH SAIL;0.6072;148159;148159;148159;48;1558;fusion minimum
+0.7804;0.7173;B - T-stat x OSU;;0.7489;179800;288208;288202;65;2273;notre T-stat seul
+0.7549;0.7558;B - T-stat x OSU;;0.7553;179800;288208;288202;65;2273;OSU seul
+0.803;0.7405;B - T-stat x OSU;notre T-stat + OSU;0.7718;179800;288208;288202;65;2273;fusion moyenne_ponderee
+0.8043;0.7395;B - T-stat x OSU;notre T-stat + OSU;0.7719;179800;288208;288202;65;2273;fusion moyenne
+0.7138;0.6805;B - T-stat x OSU;notre T-stat + OSU;0.6971;179800;288208;288202;65;2273;fusion maximum
+0.8049;0.7268;B - T-stat x OSU;notre T-stat + OSU;0.7658;179800;288208;288202;65;2273;fusion minimum
+0.7881;0.7346;B - T-stat x BDPM (notre reproduction);;0.7613;74325;80291;80250;40;963;notre T-stat seul
+0.7379;0.746;B - T-stat x BDPM (notre reproduction);;0.7419;74325;80291;80250;40;963;BDPM (notre reproduction) seul
+0.7813;0.7599;B - T-stat x BDPM (notre reproduction);notre T-stat + BDPM (notre reproduction);0.7706;74325;80291;80250;40;963;fusion moyenne_ponderee
+0.7813;0.7617;B - T-stat x BDPM (notre reproduction);notre T-stat + BDPM (notre reproduction);0.7715;74325;80291;80250;40;963;fusion moyenne
+0.7353;0.7273;B - T-stat x BDPM (notre reproduction);notre T-stat + BDPM (notre reproduction);0.7313;74325;80291;80250;40;963;fusion maximum
+0.7694;0.7461;B - T-stat x BDPM (notre reproduction);notre T-stat + BDPM (notre reproduction);0.7577;74325;80291;80250;40;963;fusion minimum
+0.7872;0.6886;B - T-stat x EOS-RS;;0.7379;29351;29641;29620;49;1525;notre T-stat seul
+0.6887;0.631;B - T-stat x EOS-RS;;0.6599;29351;29641;29620;49;1525;EOS-RS seul
+0.7894;0.7034;B - T-stat x EOS-RS;notre T-stat + EOS-RS;0.7464;29351;29641;29620;49;1525;fusion moyenne_ponderee
+0.7827;0.6988;B - T-stat x EOS-RS;notre T-stat + EOS-RS;0.7408;29351;29641;29620;49;1525;fusion moyenne
+0.7678;0.6799;B - T-stat x EOS-RS;notre T-stat + EOS-RS;0.7238;29351;29641;29620;49;1525;fusion maximum
+0.7529;0.685;B - T-stat x EOS-RS;notre T-stat + EOS-RS;0.7189;29351;29641;29620;49;1525;fusion minimum
+0.777;0.7097;B - T-stat x 3 coherences;;0.7433;13632;13832;13712;31;747;notre T-stat seul
+0.5727;0.5489;B - T-stat x 3 coherences;;0.5608;13632;13832;13712;31;747;OSU seul
+0.6721;0.6701;B - T-stat x 3 coherences;;0.6711;13632;13832;13712;31;747;BDPM (notre reproduction) seul
+0.7075;0.6396;B - T-stat x 3 coherences;;0.6735;13632;13832;13712;31;747;EOS-RS seul
+0.7884;0.7254;B - T-stat x 3 coherences;notre T-stat + OSU + BDPM (notre reproduction) + EOS-RS;0.7569;13632;13832;13712;31;747;fusion moyenne_ponderee
+0.7884;0.7078;B - T-stat x 3 coherences;notre T-stat + OSU + BDPM (notre reproduction) + EOS-RS;0.7481;13632;13832;13712;31;747;fusion moyenne
+0.7824;0.6633;B - T-stat x 3 coherences;notre T-stat + OSU + BDPM (notre reproduction) + EOS-RS;0.7228;13632;13832;13712;31;747;fusion maximum
+0.6988;0.6829;B - T-stat x 3 coherences;notre T-stat + OSU + BDPM (notre reproduction) + EOS-RS;0.6908;13632;13832;13712;31;747;fusion minimum

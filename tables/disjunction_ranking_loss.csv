@@ -1,0 +1,5 @@
+Configuration;T-stat seul;Disjonction;Écart
+T-stat × OSU, emprise commune;0,7403;0,6966;−0,0437
+T-stat × OSU, emprise propre;0,7489;0,6971;−0,0518
+T-stat × BDPM;0,7613;0,7313;−0,0300
+T-stat × EOS-RS;0,7379;0,7238;−0,0141

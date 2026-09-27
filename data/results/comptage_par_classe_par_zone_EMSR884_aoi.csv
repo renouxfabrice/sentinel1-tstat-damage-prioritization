@@ -1,0 +1,180 @@
+source,zone,classe_brute,n
+microsoft,caraballeda,damaged,763
+microsoft,catia_la_mar,damaged,9676
+microsoft,hors_aoi,damaged,466
+microsoft,la_guaira,damaged,960
+impact,Caracas,damaged,10057
+impact,Caracas,not_damaged,109323
+impact,Moron,damaged,1187
+impact,Moron,not_damaged,17381
+impact,San Felipe,damaged,106
+impact,San Felipe,not_damaged,5993
+impact,caraballeda,damaged,3055
+impact,caraballeda,not_damaged,8499
+impact,catia_la_mar,damaged,5698
+impact,catia_la_mar,not_damaged,24244
+impact,hors_aoi,damaged,58483
+impact,hors_aoi,not_damaged,2099618
+impact,la_guaira,damaged,2812
+impact,la_guaira,not_damaged,16374
+osu,Caracas,likely_damaged,12355
+osu,Caracas,not_damaged,107194
+osu,Moron,likely_damaged,7482
+osu,Moron,not_damaged,11086
+osu,San Felipe,likely_damaged,1764
+osu,San Felipe,not_damaged,87862
+osu,caraballeda,likely_damaged,7732
+osu,caraballeda,not_damaged,3827
+osu,catia_la_mar,likely_damaged,16553
+osu,catia_la_mar,not_damaged,13380
+osu,hors_aoi,likely_damaged,68142
+osu,hors_aoi,not_assessed,129
+osu,hors_aoi,not_damaged,2343408
+osu,la_guaira,likely_damaged,9605
+osu,la_guaira,not_damaged,9579
+uhsail,Caracas,damaged,14374
+uhsail,Caracas,destroyed,2441
+uhsail,Caracas,intact,94544
+uhsail,Moron,damaged,49
+uhsail,Moron,destroyed,25
+uhsail,Moron,intact,17745
+uhsail,caraballeda,damaged,72
+uhsail,caraballeda,destroyed,610
+uhsail,caraballeda,intact,5371
+uhsail,catia_la_mar,damaged,185
+uhsail,catia_la_mar,destroyed,784
+uhsail,catia_la_mar,intact,26853
+uhsail,hors_aoi,damaged,57943
+uhsail,hors_aoi,destroyed,347
+uhsail,hors_aoi,intact,221697
+uhsail,la_guaira,damaged,3438
+uhsail,la_guaira,destroyed,116
+uhsail,la_guaira,intact,17492
+unep,Caracas,damaged (liste = deja endommage),8335
+unep,Moron,damaged (liste = deja endommage),710
+unep,San Felipe,damaged (liste = deja endommage),1286
+unep,caraballeda,damaged (liste = deja endommage),682
+unep,catia_la_mar,damaged (liste = deja endommage),5826
+unep,hors_aoi,damaged (liste = deja endommage),78767
+unep,la_guaira,damaged (liste = deja endommage),440
+fair,Caracas,destroyed,16
+fair,Caracas,major,31
+fair,Moron,destroyed,34
+fair,Moron,major,48
+fair,caraballeda,destroyed,7
+fair,caraballeda,major,16
+fair,catia_la_mar,destroyed,2
+fair,catia_la_mar,major,19
+fair,hors_aoi,destroyed,47
+fair,hors_aoi,major,144
+fair,la_guaira,destroyed,16
+fair,la_guaira,major,54
+ems,Caracas,Destroyed,3
+ems,Caracas,Possibly damaged,17
+ems,Moron,Damaged,39
+ems,Moron,Destroyed,8
+ems,Moron,Possibly damaged,49
+ems,San Felipe,Damaged,14
+ems,San Felipe,Possibly damaged,169
+ems,caraballeda,Damaged,189
+ems,caraballeda,Destroyed,253
+ems,caraballeda,Possibly damaged,206
+ems,catia_la_mar,Damaged,496
+ems,catia_la_mar,Destroyed,388
+ems,catia_la_mar,Possibly damaged,933
+ems,la_guaira,Damaged,91
+ems,la_guaira,Destroyed,41
+ems,la_guaira,Possibly damaged,179
+disha,catia_la_mar,FALSE,19516
+disha,catia_la_mar,TRUE,241
+disha,hors_aoi,FALSE,7495
+disha,hors_aoi,TRUE,2
+disha,la_guaira,FALSE,11397
+disha,la_guaira,TRUE,1
+Chatmap,Caracas,complete,2
+Chatmap,Caracas,minimal,8
+Chatmap,Caracas,significant,4
+Chatmap,caraballeda,complete,136
+Chatmap,caraballeda,minimal,2
+Chatmap,caraballeda,significant,25
+Chatmap,catia_la_mar,complete,171
+Chatmap,catia_la_mar,minimal,3
+Chatmap,catia_la_mar,significant,21
+Chatmap,hors_aoi,complete,7
+Chatmap,hors_aoi,minimal,11
+Chatmap,hors_aoi,significant,7
+Chatmap,la_guaira,complete,12
+Chatmap,la_guaira,significant,6
+nasa_s1,Caracas,damaged,7129
+nasa_s1,Caracas,destroyed,377
+nasa_s1,Caracas,not_damaged,111754
+nasa_s1,caraballeda,damaged,709
+nasa_s1,caraballeda,destroyed,62
+nasa_s1,caraballeda,not_damaged,10783
+nasa_s1,catia_la_mar,damaged,1220
+nasa_s1,catia_la_mar,destroyed,73
+nasa_s1,catia_la_mar,not_damaged,28649
+nasa_s1,hors_aoi,damaged,11732
+nasa_s1,hors_aoi,destroyed,428
+nasa_s1,hors_aoi,not_damaged,391234
+nasa_s1,la_guaira,damaged,608
+nasa_s1,la_guaira,destroyed,59
+nasa_s1,la_guaira,not_damaged,18519
+nasa_s2,Caracas,damaged,28172
+nasa_s2,Caracas,destroyed,7140
+nasa_s2,Caracas,not_damaged,78128
+nasa_s2,caraballeda,damaged,1913
+nasa_s2,caraballeda,destroyed,410
+nasa_s2,caraballeda,not_damaged,8717
+nasa_s2,catia_la_mar,damaged,6393
+nasa_s2,catia_la_mar,destroyed,783
+nasa_s2,catia_la_mar,not_damaged,22516
+nasa_s2,hors_aoi,damaged,66632
+nasa_s2,hors_aoi,destroyed,16398
+nasa_s2,hors_aoi,not_damaged,269924
+nasa_s2,la_guaira,damaged,2221
+nasa_s2,la_guaira,destroyed,360
+nasa_s2,la_guaira,not_damaged,16454
+eos2,Caracas,damaged,24
+eos2,Caracas,destroyed,37
+eos2,Caracas,not_damaged,4547
+eos2,Moron,damaged,2
+eos2,Moron,not_damaged,266
+eos2,caraballeda,damaged,539
+eos2,caraballeda,destroyed,223
+eos2,caraballeda,not_damaged,5272
+eos2,catia_la_mar,damaged,1069
+eos2,catia_la_mar,destroyed,369
+eos2,catia_la_mar,not_damaged,9583
+eos2,hors_aoi,damaged,448
+eos2,hors_aoi,destroyed,147
+eos2,hors_aoi,not_damaged,31928
+eos2,la_guaira,damaged,275
+eos2,la_guaira,destroyed,77
+eos2,la_guaira,not_damaged,7337
+t_test,Caracas,damaged,434
+t_test,Caracas,not_damaged,118946
+t_test,Moron,damaged,297
+t_test,Moron,not_damaged,18271
+t_test,San Felipe,damaged,1542
+t_test,San Felipe,not_damaged,88083
+t_test,caraballeda,damaged,1027
+t_test,caraballeda,not_damaged,10527
+t_test,catia_la_mar,damaged,1602
+t_test,catia_la_mar,not_damaged,28340
+t_test,hors_aoi,damaged,4
+t_test,hors_aoi,not_damaged,764483
+t_test,la_guaira,damaged,300
+t_test,la_guaira,not_damaged,18886
+BDPM,Caracas,damaged,8
+BDPM,Caracas,not_damaged,50374
+BDPM,Moron,damaged,153
+BDPM,Moron,not_damaged,5068
+BDPM,San Felipe,not_damaged,704
+BDPM,caraballeda,damaged,538
+BDPM,caraballeda,not_damaged,3666
+BDPM,catia_la_mar,damaged,2276
+BDPM,catia_la_mar,not_damaged,9456
+BDPM,hors_aoi,not_damaged,162
+BDPM,la_guaira,damaged,62
+BDPM,la_guaira,not_damaged,7959

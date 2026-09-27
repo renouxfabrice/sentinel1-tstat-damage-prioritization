@@ -1,0 +1,169 @@
+source,zone,kind,pct_coverage
+mapswipe,EMSR884/AOI11 - Villa de Cura,vector_aoi,0.0
+mapswipe,EMSR884/AOI12 - Caraballeda,vector_aoi,81.6
+mapswipe,EMSR884/AOI02 - Caracas,vector_aoi,57.2
+mapswipe,EMSR884/AOI04 - Maracay,vector_aoi,0.0
+mapswipe,EMSR884/AOI01 - Petare,vector_aoi,8.6
+mapswipe,EMSR884/AOI07 - Puerto Cabello,vector_aoi,0.0
+mapswipe,EMSR884/AOI08 - San Felipe,vector_aoi,0.0
+mapswipe,EMSR884/AOI06 - Moron,vector_aoi,91.4
+mapswipe,EMSR884/AOI05 - Santa Cruz,vector_aoi,0.0
+mapswipe,EMSR884/AOI10 - Guacara,vector_aoi,0.0
+mapswipe,EMSR884/AOI03 - Antimano,vector_aoi,77.1
+mapswipe,EMSR884/AOI09 - Valencia,vector_aoi,0.0
+chatmap,EMSR884/AOI11 - Villa de Cura,vector_aoi,0.0
+chatmap,EMSR884/AOI12 - Caraballeda,vector_aoi,72.2
+chatmap,EMSR884/AOI02 - Caracas,vector_aoi,100.0
+chatmap,EMSR884/AOI04 - Maracay,vector_aoi,0.0
+chatmap,EMSR884/AOI01 - Petare,vector_aoi,100.0
+chatmap,EMSR884/AOI07 - Puerto Cabello,vector_aoi,0.0
+chatmap,EMSR884/AOI08 - San Felipe,vector_aoi,0.0
+chatmap,EMSR884/AOI06 - Moron,vector_aoi,0.0
+chatmap,EMSR884/AOI05 - Santa Cruz,vector_aoi,0.0
+chatmap,EMSR884/AOI10 - Guacara,vector_aoi,0.0
+chatmap,EMSR884/AOI03 - Antimano,vector_aoi,3.9
+chatmap,EMSR884/AOI09 - Valencia,vector_aoi,0.0
+disha,EMSR884/AOI11 - Villa de Cura,vector_aoi,0.0
+disha,EMSR884/AOI12 - Caraballeda,vector_aoi,33.9
+disha,EMSR884/AOI02 - Caracas,vector_aoi,0.2
+disha,EMSR884/AOI04 - Maracay,vector_aoi,0.0
+disha,EMSR884/AOI01 - Petare,vector_aoi,0.0
+disha,EMSR884/AOI07 - Puerto Cabello,vector_aoi,0.0
+disha,EMSR884/AOI08 - San Felipe,vector_aoi,0.0
+disha,EMSR884/AOI06 - Moron,vector_aoi,0.0
+disha,EMSR884/AOI05 - Santa Cruz,vector_aoi,0.0
+disha,EMSR884/AOI10 - Guacara,vector_aoi,0.0
+disha,EMSR884/AOI03 - Antimano,vector_aoi,12.8
+disha,EMSR884/AOI09 - Valencia,vector_aoi,0.0
+ems,EMSR884/AOI11 - Villa de Cura,vector_aoi,0.0
+ems,EMSR884/AOI12 - Caraballeda,vector_aoi,72.2
+ems,EMSR884/AOI02 - Caracas,vector_aoi,66.0
+ems,EMSR884/AOI04 - Maracay,vector_aoi,0.0
+ems,EMSR884/AOI01 - Petare,vector_aoi,0.0
+ems,EMSR884/AOI07 - Puerto Cabello,vector_aoi,0.0
+ems,EMSR884/AOI08 - San Felipe,vector_aoi,100.0
+ems,EMSR884/AOI06 - Moron,vector_aoi,100.0
+ems,EMSR884/AOI05 - Santa Cruz,vector_aoi,0.0
+ems,EMSR884/AOI10 - Guacara,vector_aoi,0.0
+ems,EMSR884/AOI03 - Antimano,vector_aoi,0.0
+ems,EMSR884/AOI09 - Valencia,vector_aoi,0.0
+eos,EMSR884/AOI11 - Villa de Cura,raster_extent,100.0
+eos,EMSR884/AOI12 - Caraballeda,raster_extent,100.0
+eos,EMSR884/AOI02 - Caracas,raster_extent,100.0
+eos,EMSR884/AOI04 - Maracay,raster_extent,100.0
+eos,EMSR884/AOI01 - Petare,raster_extent,100.0
+eos,EMSR884/AOI07 - Puerto Cabello,raster_extent,100.0
+eos,EMSR884/AOI08 - San Felipe,raster_extent,0.0
+eos,EMSR884/AOI06 - Moron,raster_extent,100.0
+eos,EMSR884/AOI05 - Santa Cruz,raster_extent,100.0
+eos,EMSR884/AOI10 - Guacara,raster_extent,100.0
+eos,EMSR884/AOI03 - Antimano,raster_extent,100.0
+eos,EMSR884/AOI09 - Valencia,raster_extent,100.0
+fair,EMSR884/AOI11 - Villa de Cura,vector_aoi,0.0
+fair,EMSR884/AOI12 - Caraballeda,vector_aoi,74.1
+fair,EMSR884/AOI02 - Caracas,vector_aoi,57.2
+fair,EMSR884/AOI04 - Maracay,vector_aoi,0.0
+fair,EMSR884/AOI01 - Petare,vector_aoi,8.6
+fair,EMSR884/AOI07 - Puerto Cabello,vector_aoi,0.0
+fair,EMSR884/AOI08 - San Felipe,vector_aoi,0.0
+fair,EMSR884/AOI06 - Moron,vector_aoi,91.1
+fair,EMSR884/AOI05 - Santa Cruz,vector_aoi,0.0
+fair,EMSR884/AOI10 - Guacara,vector_aoi,0.0
+fair,EMSR884/AOI03 - Antimano,vector_aoi,77.1
+fair,EMSR884/AOI09 - Valencia,vector_aoi,0.0
+impact,EMSR884/AOI11 - Villa de Cura,vector_aoi,100.0
+impact,EMSR884/AOI12 - Caraballeda,vector_aoi,100.0
+impact,EMSR884/AOI02 - Caracas,vector_aoi,100.0
+impact,EMSR884/AOI04 - Maracay,vector_aoi,100.0
+impact,EMSR884/AOI01 - Petare,vector_aoi,100.0
+impact,EMSR884/AOI07 - Puerto Cabello,vector_aoi,100.0
+impact,EMSR884/AOI08 - San Felipe,vector_aoi,29.1
+impact,EMSR884/AOI06 - Moron,vector_aoi,100.0
+impact,EMSR884/AOI05 - Santa Cruz,vector_aoi,100.0
+impact,EMSR884/AOI10 - Guacara,vector_aoi,100.0
+impact,EMSR884/AOI03 - Antimano,vector_aoi,100.0
+impact,EMSR884/AOI09 - Valencia,vector_aoi,100.0
+microsoft,EMSR884/AOI11 - Villa de Cura,vector_aoi,0.0
+microsoft,EMSR884/AOI12 - Caraballeda,vector_aoi,77.2
+microsoft,EMSR884/AOI02 - Caracas,vector_aoi,0.0
+microsoft,EMSR884/AOI04 - Maracay,vector_aoi,0.0
+microsoft,EMSR884/AOI01 - Petare,vector_aoi,0.0
+microsoft,EMSR884/AOI07 - Puerto Cabello,vector_aoi,0.0
+microsoft,EMSR884/AOI08 - San Felipe,vector_aoi,0.0
+microsoft,EMSR884/AOI06 - Moron,vector_aoi,0.0
+microsoft,EMSR884/AOI05 - Santa Cruz,vector_aoi,0.0
+microsoft,EMSR884/AOI10 - Guacara,vector_aoi,0.0
+microsoft,EMSR884/AOI03 - Antimano,vector_aoi,5.2
+microsoft,EMSR884/AOI09 - Valencia,vector_aoi,0.0
+nasa_s1,EMSR884/AOI11 - Villa de Cura,raster_extent,0.0
+nasa_s1,EMSR884/AOI12 - Caraballeda,raster_extent,92.0
+nasa_s1,EMSR884/AOI02 - Caracas,raster_extent,100.0
+nasa_s1,EMSR884/AOI04 - Maracay,raster_extent,0.0
+nasa_s1,EMSR884/AOI01 - Petare,raster_extent,100.0
+nasa_s1,EMSR884/AOI07 - Puerto Cabello,raster_extent,0.0
+nasa_s1,EMSR884/AOI08 - San Felipe,raster_extent,0.0
+nasa_s1,EMSR884/AOI06 - Moron,raster_extent,0.0
+nasa_s1,EMSR884/AOI05 - Santa Cruz,raster_extent,0.0
+nasa_s1,EMSR884/AOI10 - Guacara,raster_extent,0.0
+nasa_s1,EMSR884/AOI03 - Antimano,raster_extent,100.0
+nasa_s1,EMSR884/AOI09 - Valencia,raster_extent,0.0
+nasa_s2,EMSR884/AOI11 - Villa de Cura,raster_extent,0.0
+nasa_s2,EMSR884/AOI12 - Caraballeda,raster_extent,84.0
+nasa_s2,EMSR884/AOI02 - Caracas,raster_extent,100.0
+nasa_s2,EMSR884/AOI04 - Maracay,raster_extent,0.0
+nasa_s2,EMSR884/AOI01 - Petare,raster_extent,88.0
+nasa_s2,EMSR884/AOI07 - Puerto Cabello,raster_extent,0.0
+nasa_s2,EMSR884/AOI08 - San Felipe,raster_extent,0.0
+nasa_s2,EMSR884/AOI06 - Moron,raster_extent,0.0
+nasa_s2,EMSR884/AOI05 - Santa Cruz,raster_extent,0.0
+nasa_s2,EMSR884/AOI10 - Guacara,raster_extent,0.0
+nasa_s2,EMSR884/AOI03 - Antimano,raster_extent,100.0
+nasa_s2,EMSR884/AOI09 - Valencia,raster_extent,0.0
+osu,EMSR884/AOI11 - Villa de Cura,vector_aoi,100.0
+osu,EMSR884/AOI12 - Caraballeda,vector_aoi,100.0
+osu,EMSR884/AOI02 - Caracas,vector_aoi,100.0
+osu,EMSR884/AOI04 - Maracay,vector_aoi,100.0
+osu,EMSR884/AOI01 - Petare,vector_aoi,100.0
+osu,EMSR884/AOI07 - Puerto Cabello,vector_aoi,100.0
+osu,EMSR884/AOI08 - San Felipe,vector_aoi,100.0
+osu,EMSR884/AOI06 - Moron,vector_aoi,100.0
+osu,EMSR884/AOI05 - Santa Cruz,vector_aoi,100.0
+osu,EMSR884/AOI10 - Guacara,vector_aoi,100.0
+osu,EMSR884/AOI03 - Antimano,vector_aoi,100.0
+osu,EMSR884/AOI09 - Valencia,vector_aoi,100.0
+uhsail,EMSR884/AOI11 - Villa de Cura,vector_aoi,100.0
+uhsail,EMSR884/AOI12 - Caraballeda,vector_aoi,100.0
+uhsail,EMSR884/AOI02 - Caracas,vector_aoi,100.0
+uhsail,EMSR884/AOI04 - Maracay,vector_aoi,100.0
+uhsail,EMSR884/AOI01 - Petare,vector_aoi,100.0
+uhsail,EMSR884/AOI07 - Puerto Cabello,vector_aoi,0.0
+uhsail,EMSR884/AOI08 - San Felipe,vector_aoi,0.0
+uhsail,EMSR884/AOI06 - Moron,vector_aoi,100.0
+uhsail,EMSR884/AOI05 - Santa Cruz,vector_aoi,100.0
+uhsail,EMSR884/AOI10 - Guacara,vector_aoi,0.0
+uhsail,EMSR884/AOI03 - Antimano,vector_aoi,100.0
+uhsail,EMSR884/AOI09 - Valencia,vector_aoi,0.0
+unep,EMSR884/AOI11 - Villa de Cura,vector_aoi,98.7
+unep,EMSR884/AOI12 - Caraballeda,vector_aoi,88.9
+unep,EMSR884/AOI02 - Caracas,vector_aoi,48.4
+unep,EMSR884/AOI04 - Maracay,vector_aoi,99.7
+unep,EMSR884/AOI01 - Petare,vector_aoi,100.0
+unep,EMSR884/AOI07 - Puerto Cabello,vector_aoi,88.5
+unep,EMSR884/AOI08 - San Felipe,vector_aoi,100.0
+unep,EMSR884/AOI06 - Moron,vector_aoi,99.7
+unep,EMSR884/AOI05 - Santa Cruz,vector_aoi,100.0
+unep,EMSR884/AOI10 - Guacara,vector_aoi,99.0
+unep,EMSR884/AOI03 - Antimano,vector_aoi,1.1
+unep,EMSR884/AOI09 - Valencia,vector_aoi,100.0
+ungsc,EMSR884/AOI11 - Villa de Cura,raster_extent,0.0
+ungsc,EMSR884/AOI12 - Caraballeda,raster_extent,81.5
+ungsc,EMSR884/AOI02 - Caracas,raster_extent,100.0
+ungsc,EMSR884/AOI04 - Maracay,raster_extent,0.0
+ungsc,EMSR884/AOI01 - Petare,raster_extent,62.7
+ungsc,EMSR884/AOI07 - Puerto Cabello,raster_extent,0.0
+ungsc,EMSR884/AOI08 - San Felipe,raster_extent,0.0
+ungsc,EMSR884/AOI06 - Moron,raster_extent,0.0
+ungsc,EMSR884/AOI05 - Santa Cruz,raster_extent,0.0
+ungsc,EMSR884/AOI10 - Guacara,raster_extent,0.0
+ungsc,EMSR884/AOI03 - Antimano,raster_extent,100.0
+ungsc,EMSR884/AOI09 - Valencia,raster_extent,0.0

@@ -1,0 +1,28 @@
+Jeu de données;Rôle dans ce travail;Source;Licence annoncée;Attribution à porter;Section
+Sentinel-1 GRD;entrée de la méthode évaluée;Copernicus Data Space Ecosystem ; Google Earth Engine (COPERNICUS/S1_GRD);Copernicus, accès ouvert;Contains modified Copernicus Sentinel data (2025, 2026);2, 3
+Sentinel-1 SLC;entrée des calculs de cohérence;ASF Data Search;Copernicus, accès ouvert via ASF;Contains modified Copernicus Sentinel data (2025, 2026);3, 7
+Copernicus EMS Rapid Mapping (EMSR884);vérité de référence;mapping.emergency.copernicus.eu/activations/EMSR884;conditions Copernicus EMS;© Union européenne, Copernicus Emergency Management Service, activation EMSR884;3, 5, 6
+ChatMap;vérité de référence;signalements de terrain, conditions du propriétaire du jeu;conditions du propriétaire;selon les conditions du propriétaire;3, 5, 6
+Overture Maps — bâtiments;base d'empreintes de référence;overturemaps.org;voir la notice de la version employée;Data: Overture Maps Foundation;3
+Google Open Buildings;base d'empreintes de deux produits comparés;sites.research.google/open-buildings;CC BY 4.0;Data: Google Open Buildings;6
+Microsoft Building Footprints;base d'empreintes comparée;github.com/microsoft/GlobalMLBuildingFootprints;ODbL;Data: Microsoft;6
+OpenStreetMap;base d'empreintes comparée;openstreetmap.org;ODbL;© les contributeurs d'OpenStreetMap;6
+ESA WorldCover;masque bâti de deux produits comparés;esa-worldcover.org;CC BY 4.0;Contains ESA WorldCover data;6
+GHSL — GHS-BUILT-S;masque bâti d'un produit comparé;ghsl.jrc.ec.europa.eu;CC BY 4.0;Data: European Commission, JRC, Global Human Settlement Layer;6
+WorldPop;population par unité administrative;worldpop.org;CC BY 4.0;Data: WorldPop (www.worldpop.org);1
+USGS ShakeMap;intensité macrosismique MMI;earthquake.usgs.gov;domaine public;Data: U.S. Geological Survey;1
+Limites administratives;agrégation par commune;data.humdata.org;selon le jeu;Data: OCHA / Humanitarian Data Exchange;1, 6
+Charte internationale Espace et catastrophes majeures;statistiques d'acquisitions 2020-2024;disasterscharter.org;sous autorisation;selon les conditions de la Charte;1
+OSU S1 InSAR CCD;produit comparé et partenaire de fusion;Oregon State University, notice EMSR884_damage_20260701_v1;voir la notice du produit;citer Scher & Van Den Hoek (2025);6, 7
+EOS-RS S1 DPM;produit comparé et partenaire de fusion;sf.earthobservatory.sg;conditions EOS-RS;Contains modified Copernicus Sentinel data (2026), processed by ESA and analyzed by the Earth Observatory of Singapore - Remote Sensing Lab (EOS-RS);6, 7
+IMPACT Initiatives S1 DPM;produit comparé;data.humdata.org;voir la notice du produit;selon la notice du produit;6
+NASA DRCS/Ames S1;produit comparé;gis.earthdata.nasa.gov;voir la notice du produit;Data: NASA Disasters Response Coordination System;6
+NASA DRCS/Ames S2;produit comparé;gis.earthdata.nasa.gov;voir la notice du produit;Data: NASA Disasters Response Coordination System (Khuong Tran);6
+Microsoft AI for Good Lab;produit comparé;visualizers.aiforgood.ai;voir la notice du produit;Data: Microsoft AI for Good Lab;6
+DISHA;produit comparé;data.humdata.org ; disha.unglobalpulse.org;fourni en l'état, sans garantie ; validation indépendante requise;Data: DISHA, UNOPS et UN Global Pulse;6
+HOT fAIr et MapSwipe;produit comparé;huggingface.co/datasets/hotosm/venezuela_eq_2026;voir la notice du jeu;Data: Humanitarian OpenStreetMap Team;6
+UH SAIL — QuakeDamage;produit comparé;quakedamage.github.io;voir la notice du produit;Data: University of Houston, Structures and Artificial Intelligence Lab;6
+WFP-LIST-CERN;produit comparé;notice du producteur;méthodologie en cours d'affinement;Data: WFP, LIST et CERN;6
+UNEP/OCHA — débris;produit comparé;data.humdata.org;voir la notice du produit;Data: UNEP/OCHA Joint Environment Unit;6
+UNGSC;produit comparé, sous réserve;notice non publiée au moment de l'analyse;À ÉTABLIR auprès du producteur;à établir;6
+Global Building Atlas;base d'empreintes d'un produit comparé;notice du producteur;voir la notice du jeu;Data: Global Building Atlas;6

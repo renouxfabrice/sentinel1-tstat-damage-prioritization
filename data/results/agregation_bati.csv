@@ -1,0 +1,9 @@
+campagne;objet;agregation;auc;n_batiments;note
+Séisme du Venezuela;bâtiments;moyenne;0.726;288677;24 juin 2026, 2 communes et plus
+Séisme du Venezuela;bâtiments;p75;0.735;288677;24 juin 2026, 2 communes et plus
+Séisme du Venezuela;bâtiments;p90;0.742;288677;24 juin 2026, 2 communes et plus
+Séisme du Venezuela;bâtiments;maximum;0.749;288677;24 juin 2026, 2 communes et plus
+Cyclone Melissa (Jamaïque);bâtiments;moyenne;0.607;;2 zones UNOSAT seulement
+Cyclone Melissa (Jamaïque);bâtiments;p75;0.605;;2 zones UNOSAT seulement
+Cyclone Melissa (Jamaïque);bâtiments;p90;0.603;;2 zones UNOSAT seulement
+Cyclone Melissa (Jamaïque);bâtiments;maximum;0.602;;2 zones UNOSAT seulement

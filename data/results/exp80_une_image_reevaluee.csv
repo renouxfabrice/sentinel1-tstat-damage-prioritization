@@ -1,0 +1,40 @@
+auc;emprise;kappa_max;mode;n_batiments;n_endommages;n_images_post;pays;prevalence_pct;zone
+0.8085;Pereira (AOI02);0.0892;poole;18070;182;3;Colombie;1.007;COL_AOI02
+0.8092;Pereira (AOI02);0.0878;poole;18070;182;5;Colombie;1.007;COL_AOI02
+0.8097;Pereira (AOI02);0.0882;poole;18070;182;7;Colombie;1.007;COL_AOI02
+0.8051;Pereira (AOI02);0.0842;poole;18070;182;9;Colombie;1.007;COL_AOI02
+0.7922;Pereira (AOI02);0.0867;ztest;18070;182;1;Colombie;1.007;COL_AOI02
+0.5116;Jiguaní (AOI25);0.0197;poole;6345;1526;5;Cuba;24.05;CUBA_AOI25
+0.5096;Jiguaní (AOI25);0.0235;poole;6345;1526;7;Cuba;24.05;CUBA_AOI25
+0.5175;Jiguaní (AOI25);0.0272;poole;6345;1526;9;Cuba;24.05;CUBA_AOI25
+0.4571;Jiguaní (AOI25);-0.0001;ztest;6345;1526;1;Cuba;24.05;CUBA_AOI25
+0.509;Arlington (AOI26);0.0311;poole;8749;4851;3;Jamaique;55.446;EMS_AOI26
+0.5047;Arlington (AOI26);0.0312;poole;8749;4851;5;Jamaique;55.446;EMS_AOI26
+0.5094;Arlington (AOI26);0.0356;poole;8749;4851;7;Jamaique;55.446;EMS_AOI26
+0.5154;Arlington (AOI26);0.0414;poole;8749;4851;9;Jamaique;55.446;EMS_AOI26
+0.5003;Arlington (AOI26);0.021;ztest;8749;4851;1;Jamaique;55.446;EMS_AOI26
+0.5243;Bartons (AOI29);0.0913;poole;3454;762;3;Jamaique;22.061;EMS_AOI29
+0.5036;Bartons (AOI29);0.0929;poole;3454;762;5;Jamaique;22.061;EMS_AOI29
+0.5175;Bartons (AOI29);0.1088;poole;3454;762;7;Jamaique;22.061;EMS_AOI29
+0.5163;Bartons (AOI29);0.111;poole;3454;762;9;Jamaique;22.061;EMS_AOI29
+0.5011;Bartons (AOI29);0.0693;ztest;3454;762;1;Jamaique;22.061;EMS_AOI29
+0.7381;White House (UNOSAT);0.174;poole;1332;1197;3;Jamaique;89.865;UNOSAT_WhiteHouse
+0.664;White House (UNOSAT);0.1099;poole;1332;1197;5;Jamaique;89.865;UNOSAT_WhiteHouse
+0.6612;White House (UNOSAT);0.1529;poole;1332;1197;7;Jamaique;89.865;UNOSAT_WhiteHouse
+0.6682;White House (UNOSAT);0.1678;poole;1332;1197;9;Jamaique;89.865;UNOSAT_WhiteHouse
+0.7003;White House (UNOSAT);0.1367;ztest;1332;1197;1;Jamaique;89.865;UNOSAT_WhiteHouse
+0.6251;Caraballeda (AOI12);0.0604;poole;11513;648;3;Venezuela;5.628;VENEZ_caraballeda
+0.8001;Caraballeda (AOI12);0.3007;poole;11513;648;5;Venezuela;5.628;VENEZ_caraballeda
+0.8083;Caraballeda (AOI12);0.2951;poole;11513;648;7;Venezuela;5.628;VENEZ_caraballeda
+0.8121;Caraballeda (AOI12);0.2914;poole;11513;648;9;Venezuela;5.628;VENEZ_caraballeda
+0.5234;Caraballeda (AOI12);0.0166;ztest;11513;648;1;Venezuela;5.628;VENEZ_caraballeda
+0.5272;Catia La Mar (AOI12);0.0219;poole;32774;1830;3;Venezuela;5.584;VENEZ_catia_la_mar
+0.7846;Catia La Mar (AOI12);0.2425;poole;32774;1830;5;Venezuela;5.584;VENEZ_catia_la_mar
+0.794;Catia La Mar (AOI12);0.2509;poole;32774;1830;7;Venezuela;5.584;VENEZ_catia_la_mar
+0.796;Catia La Mar (AOI12);0.2595;poole;32774;1830;9;Venezuela;5.584;VENEZ_catia_la_mar
+0.4552;Catia La Mar (AOI12);0.0095;ztest;32774;1830;1;Venezuela;5.584;VENEZ_catia_la_mar
+0.63;La Guaira (AOI12);0.0234;poole;19144;358;3;Venezuela;1.87;VENEZ_la_guaira
+0.6783;La Guaira (AOI12);0.1715;poole;19144;358;5;Venezuela;1.87;VENEZ_la_guaira
+0.6637;La Guaira (AOI12);0.174;poole;19144;358;7;Venezuela;1.87;VENEZ_la_guaira
+0.6849;La Guaira (AOI12);0.1764;poole;19144;358;9;Venezuela;1.87;VENEZ_la_guaira
+0.5516;La Guaira (AOI12);0.0088;ztest;19144;358;1;Venezuela;1.87;VENEZ_la_guaira

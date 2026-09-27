@@ -1,0 +1,21 @@
+auc_chatmap;auc_ems;colonne;intersection;n_chatmap;n_ems;n_intersection;n_produits;n_unites_chatmap;n_unites_ems;pos_chatmap;pos_ems;produit
+;0.7145;tstat_raster_max;douze produits;5489;5489;5489;12;5;5;7;329;notre T-stat
+;0.6964;nasa_s2_raster_max;douze produits;5489;5489;5489;12;5;5;7;329;NASA DRCS S2
+;0.6785;bdpm_raster_max;douze produits;5489;5489;5489;12;5;5;7;329;BDPM (notre reproduction)
+;0.6443;fair_cm_score;douze produits;5489;5489;5489;12;5;5;7;329;fAIr HOTOSM
+;0.617;eos_raster_max;douze produits;5489;5489;5489;12;5;5;7;329;EOS-RS
+;0.6079;ungsc_raster_max;douze produits;5489;5489;5489;12;5;5;7;329;UNGSC
+;0.6046;impact_rang;douze produits;5489;5489;5489;12;5;5;7;329;IMPACT Initiatives
+;0.5583;microsoft_rang;douze produits;5489;5489;5489;12;5;5;7;329;Microsoft AI for Good
+;0.5478;osu_coverage_fraction;douze produits;5489;5489;5489;12;5;5;7;329;OSU
+;0.5264;nasa_s1_raster_max;douze produits;5489;5489;5489;12;5;5;7;329;NASA DRCS S1
+;0.4646;uhsail_rang;douze produits;5489;5489;5489;12;5;5;7;329;UH SAIL
+;0.4105;disha_cm_score;douze produits;5489;5489;5489;12;5;5;7;329;DISHA
+0.7538;0.7268;tstat_raster_max;produits >= 20 %% de couverture;148159;148159;148159;8;20;20;48;1558;notre T-stat
+0.7354;0.7294;osu_coverage_fraction;produits >= 20 %% de couverture;148159;148159;148159;8;20;20;48;1558;OSU
+0.7187;0.7131;nasa_s2_raster_max;produits >= 20 %% de couverture;148159;148159;148159;8;20;20;48;1558;NASA DRCS S2
+0.5999;0.6505;ungsc_raster_max;produits >= 20 %% de couverture;148159;148159;148159;8;20;20;48;1558;UNGSC
+0.6305;0.5942;fair_cm_score;produits >= 20 %% de couverture;148159;148159;148159;8;20;20;48;1558;fAIr HOTOSM
+0.4686;0.658;uhsail_rang;produits >= 20 %% de couverture;148159;148159;148159;8;20;20;48;1558;UH SAIL
+0.544;0.511;nasa_s1_raster_max;produits >= 20 %% de couverture;148159;148159;148159;8;20;20;48;1558;NASA DRCS S1
+0.4869;0.4958;impact_rang;produits >= 20 %% de couverture;148159;148159;148159;8;20;20;48;1558;IMPACT Initiatives

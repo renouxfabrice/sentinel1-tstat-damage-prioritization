@@ -1,0 +1,85 @@
+source,zone,total_buildings,source_aoi_area_km2,n_endommages,n_detruits,n_total
+microsoft,la_guaira,19186,17.86,960,0,960
+microsoft,catia_la_mar,29942,34.35,9676,0,9676
+microsoft,caraballeda,11554,13.96,763,0,763
+microsoft,Caracas,119380,0.0,0,0,0
+microsoft,Moron,18568,0.0,0,0,0
+microsoft,San Felipe,89625,0.0,0,0,0
+impact,la_guaira,19186,17.86,2812,0,2812
+impact,catia_la_mar,29942,34.58,5698,0,5698
+impact,caraballeda,11554,15.89,3055,0,3055
+impact,Caracas,119380,100.03,10057,0,10057
+impact,Moron,18568,39.25,1187,0,1187
+impact,San Felipe,89625,47.18,106,0,106
+osu,la_guaira,19186,17.86,9605,0,9605
+osu,catia_la_mar,29942,34.58,16553,0,16553
+osu,caraballeda,11554,15.89,7732,0,7732
+osu,Caracas,119380,100.03,12355,0,12355
+osu,Moron,18568,39.25,7482,0,7482
+osu,San Felipe,89625,162.04,1764,0,1764
+uhsail,la_guaira,19186,17.86,3438,116,3554
+uhsail,catia_la_mar,29942,34.58,185,784,969
+uhsail,caraballeda,11554,15.89,72,610,682
+uhsail,Caracas,119380,100.03,14374,2441,16815
+uhsail,Moron,18568,39.25,49,25,74
+uhsail,San Felipe,89625,0.0,0,0,0
+unep,la_guaira,19186,14.34,440,0,440
+unep,catia_la_mar,29942,30.21,5826,0,5826
+unep,caraballeda,11554,12.94,682,0,682
+unep,Caracas,119380,31.29,8335,0,8335
+unep,Moron,18568,38.49,710,0,710
+unep,San Felipe,89625,162.04,1286,0,1286
+fair,la_guaira,19186,10.29,3166,143,3309
+fair,catia_la_mar,29942,34.11,2293,257,2550
+fair,caraballeda,11554,15.58,381,59,440
+fair,Caracas,119380,72.98,6757,106,6863
+fair,Moron,18568,35.62,639,49,688
+fair,San Felipe,89625,0.0,0,0,0
+ems,la_guaira,19186,17.86,270,41,311
+ems,catia_la_mar,29942,34.58,1429,388,1817
+ems,caraballeda,11554,15.89,395,253,648
+ems,Caracas,119380,100.03,17,3,20
+ems,Moron,18568,39.25,88,8,96
+ems,San Felipe,89625,162.04,183,0,183
+disha,la_guaira,19186,6.55,1,0,1
+disha,catia_la_mar,29942,25.33,241,0,241
+disha,caraballeda,11554,0.0,0,0,0
+disha,Caracas,119380,0.0,0,0,0
+disha,Moron,18568,0.0,0,0,0
+disha,San Felipe,89625,0.0,0,0,0
+chatmap,la_guaira,19186,17.86,6,12,18
+chatmap,catia_la_mar,29942,34.58,24,171,195
+chatmap,caraballeda,11554,15.89,27,136,163
+chatmap,Caracas,119380,100.03,12,2,14
+chatmap,Moron,18568,0.0,0,0,0
+chatmap,San Felipe,89625,0.0,0,0,0
+nasa_s1,la_guaira,19186,17.86,608,59,667
+nasa_s1,catia_la_mar,29942,34.58,1220,73,1293
+nasa_s1,caraballeda,11554,15.89,709,62,771
+nasa_s1,Caracas,119380,100.03,7129,377,7506
+nasa_s1,Moron,18568,0.0,0,0,0
+nasa_s1,San Felipe,89625,0.0,0,0,0
+nasa_s2,la_guaira,19186,17.86,2221,360,2581
+nasa_s2,catia_la_mar,29942,34.58,6393,783,7176
+nasa_s2,caraballeda,11554,15.89,1913,410,2323
+nasa_s2,Caracas,119380,100.03,28172,7140,35312
+nasa_s2,Moron,18568,0.0,0,0,0
+nasa_s2,San Felipe,89625,0.0,0,0,0
+eos,la_guaira,19186,17.86,275,77,352
+eos,catia_la_mar,29942,34.58,1069,369,1438
+eos,caraballeda,11554,15.89,539,223,762
+eos,Caracas,119380,100.03,24,37,61
+eos,Moron,18568,39.25,2,0,2
+eos,San Felipe,89625,0.0,0,0,0
+t_test,la_guaira,19186,17.86,0,0,0
+t_test,catia_la_mar,29942,34.58,0,0,0
+t_test,caraballeda,11554,15.89,0,0,0
+t_test,Caracas,119380,100.03,0,0,0
+t_test,Moron,18568,39.25,0,0,0
+t_test,San Felipe,89625,162.04,0,0,0
+bdpm,la_guaira,19186,17.86,0,0,0
+bdpm,catia_la_mar,29942,34.58,0,0,0
+bdpm,caraballeda,11554,15.89,0,0,0
+bdpm,Caracas,119380,100.03,0,0,0
+bdpm,Moron,18568,39.25,0,0,0
+bdpm,San Felipe,89625,162.04,0,0,0

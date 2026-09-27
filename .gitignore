@@ -1,0 +1,36 @@
+# Donnees volumineuses : elles ne vivent pas dans le depot.
+# Les arborescences data/ sont decrites par leurs README ; les fichiers
+# eux-memes sont archives ailleurs et cites par leur source.
+*.tif
+*.tiff
+*.jp2
+*.img
+*.vrt
+*.hdf
+*.nc
+*.zip
+*.7z
+*.tar.gz
+*.safe/
+*.SAFE/
+
+# Sorties de traitement
+*.aux.xml
+*.ovr
+*.lock
+
+# Carnets executes : on versionne le code, pas les sorties
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Environnements et outils locaux
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Sauvegardes des passes de reecriture : utiles en local, hors du depot
+*.avant_*

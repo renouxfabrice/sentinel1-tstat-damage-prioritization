@@ -1,0 +1,12 @@
+Méthode;AUC groupée
+DPM1 — moyenne;0,601
+DPM1 — moyenne, sans appariement;0,597
+DPM2 — forme gaussienne, méthode OSU;0,595
+DPM2 — formule exacte;0,593
+DPM1 — proche, sans appariement;0,579
+DPM1 — paire la plus proche;0,576
+BDPM — marge, masquée fiabilité;0,575
+BDPM — marge;0,568
+Cohérence co-sismique brute;0,557
+BDPM — sortie binaire publiée;0,462
+Cohérence pré-sismique seule;0,458

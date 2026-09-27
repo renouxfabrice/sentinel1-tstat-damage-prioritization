@@ -1,0 +1,65 @@
+agregation;auc;configuration;emprise;fiable;n;n_endommages;objet;prevalence_pct;source
+moyenne;0.8095;série complète;NEPAL_aoi01;oui;20;14;routes;70.0;Copernicus EMSR927
+p75;0.8333;série complète;NEPAL_aoi01;oui;20;14;routes;70.0;Copernicus EMSR927
+p90;0.8452;série complète;NEPAL_aoi01;oui;20;14;routes;70.0;Copernicus EMSR927
+maximum;0.8512;série complète;NEPAL_aoi01;oui;20;14;routes;70.0;Copernicus EMSR927
+moyenne;0.7738;une seule image;NEPAL_aoi01;oui;20;14;routes;70.0;Copernicus EMSR927
+p75;0.75;une seule image;NEPAL_aoi01;oui;20;14;routes;70.0;Copernicus EMSR927
+p90;0.8095;une seule image;NEPAL_aoi01;oui;20;14;routes;70.0;Copernicus EMSR927
+maximum;0.8452;une seule image;NEPAL_aoi01;oui;20;14;routes;70.0;Copernicus EMSR927
+moyenne;;série complète;NEPAL_aoi02;non;14;14;routes;100.0;Copernicus EMSR927
+p75;;série complète;NEPAL_aoi02;non;14;14;routes;100.0;Copernicus EMSR927
+p90;;série complète;NEPAL_aoi02;non;14;14;routes;100.0;Copernicus EMSR927
+maximum;;série complète;NEPAL_aoi02;non;14;14;routes;100.0;Copernicus EMSR927
+moyenne;;une seule image;NEPAL_aoi02;non;14;14;routes;100.0;Copernicus EMSR927
+p75;;une seule image;NEPAL_aoi02;non;14;14;routes;100.0;Copernicus EMSR927
+p90;;une seule image;NEPAL_aoi02;non;14;14;routes;100.0;Copernicus EMSR927
+maximum;;une seule image;NEPAL_aoi02;non;14;14;routes;100.0;Copernicus EMSR927
+moyenne;0.8985;série complète;NEPAL_aoi03;oui;523;270;routes;51.63;Copernicus EMSR927
+p75;0.8855;série complète;NEPAL_aoi03;oui;523;270;routes;51.63;Copernicus EMSR927
+p90;0.873;série complète;NEPAL_aoi03;oui;523;270;routes;51.63;Copernicus EMSR927
+maximum;0.8518;série complète;NEPAL_aoi03;oui;523;270;routes;51.63;Copernicus EMSR927
+moyenne;0.7704;une seule image;NEPAL_aoi03;oui;523;270;routes;51.63;Copernicus EMSR927
+p75;0.7503;une seule image;NEPAL_aoi03;oui;523;270;routes;51.63;Copernicus EMSR927
+p90;0.7332;une seule image;NEPAL_aoi03;oui;523;270;routes;51.63;Copernicus EMSR927
+maximum;0.711;une seule image;NEPAL_aoi03;oui;523;270;routes;51.63;Copernicus EMSR927
+moyenne;;série complète;NEPAL_aoi03;non;16;16;ponts;100.0;Copernicus EMSR927
+p75;;série complète;NEPAL_aoi03;non;16;16;ponts;100.0;Copernicus EMSR927
+p90;;série complète;NEPAL_aoi03;non;16;16;ponts;100.0;Copernicus EMSR927
+maximum;;série complète;NEPAL_aoi03;non;16;16;ponts;100.0;Copernicus EMSR927
+moyenne;;une seule image;NEPAL_aoi03;non;16;16;ponts;100.0;Copernicus EMSR927
+p75;;une seule image;NEPAL_aoi03;non;16;16;ponts;100.0;Copernicus EMSR927
+p90;;une seule image;NEPAL_aoi03;non;16;16;ponts;100.0;Copernicus EMSR927
+maximum;;une seule image;NEPAL_aoi03;non;16;16;ponts;100.0;Copernicus EMSR927
+moyenne;0.8494;série complète;NEPAL_aoi05;oui;489;156;routes;31.9;Copernicus EMSR927
+p75;0.8408;série complète;NEPAL_aoi05;oui;489;156;routes;31.9;Copernicus EMSR927
+p90;0.8365;série complète;NEPAL_aoi05;oui;489;156;routes;31.9;Copernicus EMSR927
+maximum;0.8306;série complète;NEPAL_aoi05;oui;489;156;routes;31.9;Copernicus EMSR927
+moyenne;0.7935;une seule image;NEPAL_aoi05;oui;489;156;routes;31.9;Copernicus EMSR927
+p75;0.788;une seule image;NEPAL_aoi05;oui;489;156;routes;31.9;Copernicus EMSR927
+p90;0.7764;une seule image;NEPAL_aoi05;oui;489;156;routes;31.9;Copernicus EMSR927
+maximum;0.7546;une seule image;NEPAL_aoi05;oui;489;156;routes;31.9;Copernicus EMSR927
+moyenne;0.8502;série complète;ensemble;oui;73;46;ponts HOT, aire;63.01;HOT
+p75;0.8607;série complète;ensemble;oui;73;46;ponts HOT, aire;63.01;HOT
+p90;0.8647;série complète;ensemble;oui;73;46;ponts HOT, aire;63.01;HOT
+maximum;0.8655;série complète;ensemble;oui;73;46;ponts HOT, aire;63.01;HOT
+moyenne;0.7963;une seule image;ensemble;oui;73;46;ponts HOT, aire;63.01;HOT
+p75;0.8068;une seule image;ensemble;oui;73;46;ponts HOT, aire;63.01;HOT
+p90;0.8068;une seule image;ensemble;oui;73;46;ponts HOT, aire;63.01;HOT
+maximum;0.8116;une seule image;ensemble;oui;73;46;ponts HOT, aire;63.01;HOT
+moyenne;0.8853;série complète;ensemble;oui;76;45;ponts HOT, corridor;59.21;HOT
+p75;0.8932;série complète;ensemble;oui;76;45;ponts HOT, corridor;59.21;HOT
+p90;0.8953;série complète;ensemble;oui;76;45;ponts HOT, corridor;59.21;HOT
+maximum;0.8961;série complète;ensemble;oui;76;45;ponts HOT, corridor;59.21;HOT
+moyenne;0.8258;une seule image;ensemble;oui;76;45;ponts HOT, corridor;59.21;HOT
+p75;0.838;une seule image;ensemble;oui;76;45;ponts HOT, corridor;59.21;HOT
+p90;0.8315;une seule image;ensemble;oui;76;45;ponts HOT, corridor;59.21;HOT
+maximum;0.8351;une seule image;ensemble;oui;76;45;ponts HOT, corridor;59.21;HOT
+moyenne;0.9;série complète;ensemble;oui;26;20;ponts HOT, évaluation;76.92;HOT
+p75;0.9;série complète;ensemble;oui;26;20;ponts HOT, évaluation;76.92;HOT
+p90;0.9;série complète;ensemble;oui;26;20;ponts HOT, évaluation;76.92;HOT
+maximum;0.9;série complète;ensemble;oui;26;20;ponts HOT, évaluation;76.92;HOT
+moyenne;0.8583;une seule image;ensemble;oui;26;20;ponts HOT, évaluation;76.92;HOT
+p75;0.8583;une seule image;ensemble;oui;26;20;ponts HOT, évaluation;76.92;HOT
+p90;0.8583;une seule image;ensemble;oui;26;20;ponts HOT, évaluation;76.92;HOT
+maximum;0.8583;une seule image;ensemble;oui;26;20;ponts HOT, évaluation;76.92;HOT

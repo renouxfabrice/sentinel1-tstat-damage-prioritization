@@ -1,0 +1,19 @@
+zone,portion,area_km2,urban_area_km2,population,n_buildings_overture,n_buildings_osm,n_buildings_open_buildings,n_buildings_microsoft_vida
+la_guaira,sans_nuage,17.855,3.059,100546.0,19186,21237,16257,16733
+la_guaira,avec_nuage,0.0,0.0,0.0,0,0,0,0
+la_guaira,total,17.855,3.059,100546.0,19186,21237,16257,16733
+catia_la_mar,sans_nuage,34.579,5.516,167729.0,32821,30005,36938,37524
+catia_la_mar,avec_nuage,0.0,0.0,0.0,0,0,0,0
+catia_la_mar,total,34.579,5.516,167729.0,32821,30005,36938,37524
+caraballeda,sans_nuage,10.828,1.798,28024.0,7319,5356,7103,7436
+caraballeda,avec_nuage,5.066,0.634,15052.0,4236,3191,2636,2749
+caraballeda,total,15.893,2.432,43076.0,11555,8547,9739,10185
+Caracas,sans_nuage,93.688,22.721,740687.0,111638,11188,74533,76749
+Caracas,avec_nuage,6.338,1.318,47013.0,7742,412,7257,7455
+Caracas,total,100.026,24.039,787700.0,119380,11600,81790,84204
+Moron,sans_nuage,23.227,2.839,40050.0,13914,12864,15620,16850
+Moron,avec_nuage,16.028,0.668,12626.0,4654,4808,6293,6718
+Moron,total,39.255,3.507,52676.0,18568,17672,21913,23568
+San Felipe,sans_nuage,160.031,12.657,198733.0,89258,49094,85635,87107
+San Felipe,avec_nuage,2.01,0.04,454.0,367,0,459,468
+San Felipe,total,162.041,12.697,199187.0,89625,49094,86094,87575

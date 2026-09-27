@@ -1,0 +1,43 @@
+auc;emprise;fenetre_pre_mois;kappa_max;n_batiments;n_endommages;pays;prevalence_pct;zone
+0.8075;Pereira (AOI02);3;0.0818;18065;182;Colombie;1.007;COL_AOI02
+0.8037;Pereira (AOI02);6;0.0867;18065;182;Colombie;1.007;COL_AOI02
+0.803;Pereira (AOI02);9;0.0867;18065;182;Colombie;1.007;COL_AOI02
+0.8085;Pereira (AOI02);12;0.0892;18065;182;Colombie;1.007;COL_AOI02
+0.7979;Pereira (AOI02);18;0.0882;18065;182;Colombie;1.007;COL_AOI02
+0.7935;Pereira (AOI02);24;0.0867;18065;182;Colombie;1.007;COL_AOI02
+0.53;Arlington (AOI26);3;0.0378;8833;4862;Jamaique;55.044;EMS_AOI26
+0.5346;Arlington (AOI26);6;0.0482;8833;4862;Jamaique;55.044;EMS_AOI26
+0.5307;Arlington (AOI26);9;0.0578;8833;4862;Jamaique;55.044;EMS_AOI26
+0.5122;Arlington (AOI26);12;0.0334;8833;4862;Jamaique;55.044;EMS_AOI26
+0.4943;Arlington (AOI26);18;0.0125;8833;4862;Jamaique;55.044;EMS_AOI26
+0.4964;Arlington (AOI26);24;0.0143;8833;4862;Jamaique;55.044;EMS_AOI26
+0.5241;Bartons (AOI29);3;0.0669;3472;762;Jamaique;21.947;EMS_AOI29
+0.5289;Bartons (AOI29);6;0.0921;3472;762;Jamaique;21.947;EMS_AOI29
+0.5438;Bartons (AOI29);9;0.0888;3472;762;Jamaique;21.947;EMS_AOI29
+0.5297;Bartons (AOI29);12;0.0919;3472;762;Jamaique;21.947;EMS_AOI29
+0.53;Bartons (AOI29);18;0.0921;3472;762;Jamaique;21.947;EMS_AOI29
+0.5198;Bartons (AOI29);24;0.084;3472;762;Jamaique;21.947;EMS_AOI29
+0.5113;White House (UNOSAT);3;0.0466;1304;1175;Jamaique;90.107;UNOSAT_WhiteHouse
+0.6591;White House (UNOSAT);6;0.1147;1304;1175;Jamaique;90.107;UNOSAT_WhiteHouse
+0.7036;White House (UNOSAT);9;0.1381;1304;1175;Jamaique;90.107;UNOSAT_WhiteHouse
+0.7593;White House (UNOSAT);12;0.1954;1304;1175;Jamaique;90.107;UNOSAT_WhiteHouse
+0.762;White House (UNOSAT);18;0.1938;1304;1175;Jamaique;90.107;UNOSAT_WhiteHouse
+0.7824;White House (UNOSAT);24;0.2212;1304;1175;Jamaique;90.107;UNOSAT_WhiteHouse
+0.4879;Caraballeda (AOI12);3;0.0155;11521;648;Venezuela;5.625;VENEZ_caraballeda
+0.5546;Caraballeda (AOI12);6;0.0229;11521;648;Venezuela;5.625;VENEZ_caraballeda
+0.5974;Caraballeda (AOI12);9;0.034;11521;648;Venezuela;5.625;VENEZ_caraballeda
+0.6251;Caraballeda (AOI12);12;0.0604;11521;648;Venezuela;5.625;VENEZ_caraballeda
+0.6605;Caraballeda (AOI12);18;0.1085;11521;648;Venezuela;5.625;VENEZ_caraballeda
+0.6711;Caraballeda (AOI12);24;0.1217;11521;648;Venezuela;5.625;VENEZ_caraballeda
+0.4188;Catia La Mar (AOI12);3;0.0065;32739;1830;Venezuela;5.59;VENEZ_catia_la_mar
+0.4644;Catia La Mar (AOI12);6;0.0121;32739;1830;Venezuela;5.59;VENEZ_catia_la_mar
+0.5006;Catia La Mar (AOI12);9;0.0143;32739;1830;Venezuela;5.59;VENEZ_catia_la_mar
+0.5275;Catia La Mar (AOI12);12;0.0213;32739;1830;Venezuela;5.59;VENEZ_catia_la_mar
+0.5642;Catia La Mar (AOI12);18;0.0424;32739;1830;Venezuela;5.59;VENEZ_catia_la_mar
+0.5819;Catia La Mar (AOI12);24;0.0457;32739;1830;Venezuela;5.59;VENEZ_catia_la_mar
+0.5557;La Guaira (AOI12);3;0.0095;19147;358;Venezuela;1.87;VENEZ_la_guaira
+0.6023;La Guaira (AOI12);6;0.0165;19147;358;Venezuela;1.87;VENEZ_la_guaira
+0.6196;La Guaira (AOI12);9;0.0184;19147;358;Venezuela;1.87;VENEZ_la_guaira
+0.6299;La Guaira (AOI12);12;0.0234;19147;358;Venezuela;1.87;VENEZ_la_guaira
+0.6539;La Guaira (AOI12);18;0.0518;19147;358;Venezuela;1.87;VENEZ_la_guaira
+0.6642;La Guaira (AOI12);24;0.063;19147;358;Venezuela;1.87;VENEZ_la_guaira

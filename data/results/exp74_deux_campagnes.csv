@@ -1,0 +1,9 @@
+jamaique_fiable;jamaique_moyen;jamaique_n;libelle;variante;venezuela_fiable;venezuela_moyen;venezuela_n
+-0.0129;0.0025;5;test de Welch;welch;0.0037;0.008;5
+-0.0161;0.0101;5;distance de Mahalanobis;mahalanobis;-0.0072;0.0287;5
+0.0;0.0;5;masque de validité levé;sans_masque;0.0;-0.0002;5
+0.0153;0.0128;5;médian focal 20 m;lissage_20m;0.0;0.0004;5
+0.0044;-0.0099;5;combinaison de Stouffer;orbites_stouffer;-0.0029;0.0019;5
+0.0244;0.0042;5;score z, une seule image;ztest_1img;-0.3317;-0.1799;5
+0.0244;0.0042;5;variance regroupée, une seule image;poole_1img;-0.3317;-0.1793;5
+0.0156;-0.0035;5;Mahalanobis, une seule image;mahalanobis_1img;-0.1769;-0.1016;5

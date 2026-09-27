@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce dépôt, merci de le citer comme suit."
+title: "Évaluation et amélioration par fusion d'une méthode de classement de bâtiments post-catastrophe avec Sentinel-1"
+abstract: >-
+  Évaluation d'un test t par pixel sur séries temporelles Sentinel-1 comme
+  classement des bâtiments à vérifier après une catastrophe soudaine. La méthode
+  est confrontée à deux vérités de référence indépendantes sur une emprise
+  strictement commune de 148 159 bâtiments, comparée à onze autres produits de
+  dommage, et fusionnée avec la cohérence interférométrique. Deux cas d'étude :
+  le cyclone Melissa (Jamaïque, octobre 2025) et le séisme du Venezuela du
+  24 juin 2026.
+type: dataset
+authors:
+  - family-names: Renoux
+    given-names: Fabrice
+    alias: renouxfabrice
+version: 1.0.0
+date-released: "2026-09-27"
+license: MIT
+repository-code: "https://github.com/renouxfabrice/sentinel1-tstat-damage-prioritization"
+keywords:
+  - Sentinel-1
+  - synthetic aperture radar
+  - pixel-wise t-test
+  - building damage assessment
+  - interferometric coherence
+  - data fusion
+  - rapid damage assessment
+  - humanitarian response
+  - earthquake
+  - tropical cyclone
+  - Copernicus Emergency Management Service
+  - reproducibility
+references:
+  - type: article
+    authors:
+      - family-names: Ballinger
+        given-names: Ollie
+    title: "Open access battle damage detection via Pixel-Wise T-Test on Sentinel-1 imagery"
+    journal: "Remote Sensing of Environment"
+    volume: 331
+    year: 2025
+    doi: "10.1016/j.rse.2025.115025"

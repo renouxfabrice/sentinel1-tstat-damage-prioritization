@@ -1,0 +1,531 @@
+TY  - JOUR
+AU  - Ballinger, Ollie
+TI  - Open access battle damage detection via Pixel-Wise T-Test on Sentinel-1 imagery
+T2  - Remote Sensing of Environment
+VL  - 331
+DO  - 10.1016/j.rse.2025.115025
+UR  - https://arxiv.org/abs/2405.06323
+SP  - 115025
+PY  - 2025
+N1  - Methode de reference du projet (Pixel-Wise T-Test). Depot : github.com/oballinger/PWTT
+KW  - methode de reference
+KW  - PWTT
+KW  - T-stat
+L1  - F:\Application\Damage_detection\Biblio\Ballinger_2025_PWTT.pdf
+ER  - 
+
+TY  - COMP
+AU  - Ballinger, Ollie
+TI  - PWTT: Pixel-Wise T-Test for battle damage detection
+UR  - https://github.com/oballinger/PWTT
+PY  - 2024
+KW  - T-stat
+KW  - code source
+ER  - 
+
+TY  - COMP
+AU  - Renoux, Fabrice
+TI  - Rapid Damage Detection Tool: Post-disaster assessment using Sentinel-1 SAR data on Google Earth Engine
+UR  - https://github.com/renouxfabrice/Rapid-Cyclone-Damage-Mapping
+PY  - 2026
+KW  - outil
+KW  - production propre
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Hao
+TI  - A New Method for the Identification of Earthquake-Damaged Buildings Using Sentinel-1 Multitemporal Coherence Optimized by Homogeneous SAR Pixels and Histogram Matching
+T2  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+UR  - https://ieeexplore.ieee.org/document/10472520
+PY  - 2024
+N1  - ATTENTION : initiale de l'auteur incoherente entre les documents du projet (Liu, H. dans la liste biblio ; Liu, W. dans le README de methode). A trancher sur le PDF.
+KW  - coherence
+KW  - BDPM
+ER  - 
+
+TY  - JOUR
+AU  - O'Donnell, T. Matthew
+AU  - Zimmaro, Paolo
+AU  - Fielding, Eric J.
+AU  - Stewart, Jonathan P.
+TI  - Quantitative validation of NASA ARIA damage proxy maps for detection of ground displacement from surface fault rupture from the 2019 Ridgecrest earthquake sequence
+T2  - Earthquake Spectra
+VL  - 41
+IS  - 5
+DO  - 10.1177/87552930251377727
+PY  - 2025
+N1  - ATTENTION : titre et initiale incoherents entre les documents du projet. A trancher sur le PDF. Acces payant (Sage).
+KW  - DPM
+KW  - validation
+ER  - 
+
+TY  - JOUR
+AU  - Jung, Jungkyo
+AU  - Yun, Sang-Ho
+AU  - Kim, Duk-jin
+AU  - Lavalle, Marco
+TI  - Damage-Mapping Algorithm Based on Coherence Model Using Multitemporal Polarimetric-Interferometric SAR Data
+T2  - IEEE Transactions on Geoscience and Remote Sensing
+VL  - 56
+IS  - 3
+DO  - 10.1109/TGRS.2017.2764748
+SP  - 1520
+EP  - 1532
+PY  - 2018
+N1  - Acces payant (IEEE). Version auteur possible sur ResearchGate.
+KW  - coherence
+KW  - DPM1
+KW  - DPM2
+L1  - F:\Application\Damage_detection\Biblio\Liu_2024_BDPM_coherence.pdf
+ER  - 
+
+TY  - JOUR
+AU  - Scher, Corey
+AU  - Van Den Hoek, Jamon
+TI  - Nationwide conflict damage mapping with interferometric synthetic aperture radar: A study of the 2022 Russia-Ukraine conflict
+T2  - Science of Remote Sensing
+VL  - 11
+DO  - 10.1016/j.srs.2025.100217
+UR  - https://www.sciencedirect.com/science/article/pii/S2666017225000239
+SP  - 100217
+PY  - 2025
+N1  - Libre acces (Creative Commons) mais telechargement bloque aux robots : a recuperer depuis un navigateur.
+KW  - DPM2-A
+KW  - inspiration methodologique
+ER  - 
+
+TY  - JOUR
+AU  - Scher, Corey
+AU  - Van Den Hoek, Jamon
+TI  - Active InSAR monitoring of building damage in Gaza during the Israel-Hamas War
+T2  - arXiv preprint arXiv:2506.14730
+UR  - https://arxiv.org/abs/2506.14730
+PY  - 2025
+KW  - InSAR
+KW  - suivi actif
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Xiaoqing
+AU  - Feng, Guangcai
+AU  - He, Lijia
+AU  - An, Qi
+AU  - Xiong, Zhiqiang
+AU  - Lu, Hao
+AU  - Wang, Wenxin
+AU  - Li, Ning
+AU  - Zhao, Yuedong
+AU  - Wang, Yuexin
+AU  - Wang, Yuebing
+TI  - Evaluating Urban Building Damage of 2023 Kahramanmaras, Turkey Earthquake Sequence Using SAR Change Detection
+T2  - Sensors
+VL  - 23
+IS  - 14
+DO  - 10.3390/s23146342
+UR  - https://www.mdpi.com/1424-8220/23/14/6342
+SP  - 6342
+PY  - 2023
+N1  - Reference qui legitime la strategie de fusion multi-methodes. Libre acces (MDPI) mais telechargement bloque aux robots.
+KW  - fusion
+KW  - legitimation methodologique
+ER  - 
+
+TY  - JOUR
+AU  - Ge, Peng
+AU  - Gokon, Hideomi
+AU  - Meguro, Kimiro
+TI  - A review on synthetic aperture radar-based building damage assessment in disasters
+T2  - Remote Sensing of Environment
+VL  - 240
+DO  - 10.1016/j.rse.2020.111693
+SP  - 111693
+PY  - 2020
+N1  - Acces payant (Elsevier).
+KW  - positionnement
+KW  - revue
+ER  - 
+
+TY  - JOUR
+AU  - Plank, Simon
+TI  - Rapid Damage Assessment by Means of Multi-Temporal SAR - A Comprehensive Review and Outlook to Sentinel-1
+T2  - Remote Sensing
+VL  - 6
+IS  - 6
+DO  - 10.3390/rs6064870
+UR  - https://www.mdpi.com/2072-4292/6/6/4870
+SP  - 4870
+EP  - 4906
+PY  - 2014
+N1  - Libre acces (MDPI) mais telechargement bloque aux robots : a recuperer depuis un navigateur.
+KW  - positionnement
+KW  - revue
+ER  - 
+
+TY  - JOUR
+AU  - Ainscoe, Emily A.
+AU  - Swaminathan, Ramesh
+AU  - Way, Lucy
+AU  - Modugno, Sirio
+AU  - Chin, Sze Ting
+AU  - Panta, Nabin
+AU  - Crevoisier, Thomas
+AU  - Yun, Sang-Ho
+TI  - Earthquake damage mapped more comprehensively and accurately by radar satellites than optical imagery
+T2  - Communications Earth & Environment
+VL  - 6
+UR  - https://www.nature.com/articles/s43247-025-02623-4
+SP  - 631
+PY  - 2025
+KW  - justification du choix radar
+KW  - radar vs optique
+L1  - F:\Application\Damage_detection\Biblio\Ainscoe_2025_Radar_vs_Optical.pdf
+ER  - 
+
+TY  - JOUR
+AU  - Cotrufo, Silvana
+AU  - Sandu, Corrado
+AU  - Giulio Tonolo, Fabio
+AU  - Boccardo, Piero
+TI  - Building damage assessment scale tailored to remote sensing vertical imagery
+T2  - European Journal of Remote Sensing
+VL  - 51
+IS  - 1
+DO  - 10.1080/22797254.2018.1527662
+SP  - 991
+EP  - 1005
+PY  - 2018
+N1  - Reference signalee comme manquante dans le README de methode (section 12) : la voici. Libre acces (Taylor & Francis) mais telechargement bloque aux robots.
+KW  - echelle de dommages
+KW  - vertical
+ER  - 
+
+TY  - JOUR
+AU  - Manzini, Thomas
+AU  - Perali, Priyankari
+AU  - Tripathi, Jayesh
+AU  - Murphy, Robin
+TI  - Now you see it, Now you don't: Damage Label Agreement in Drone & Satellite Post-Disaster Imagery
+T2  - arXiv preprint arXiv:2505.08117
+UR  - https://arxiv.org/abs/2505.08117
+PY  - 2025
+N1  - Justifie le recours a l'imagerie aerienne/drone en complement du satellite.
+KW  - accord entre annotations
+KW  - drone vs satellite
+L1  - F:\Application\Damage_detection\Biblio\Manzini_2025_Drone_vs_Satellite.pdf
+ER  - 
+
+TY  - JOUR
+AU  - Manzini, Thomas
+AU  - Perali, Priyankari
+AU  - Karnik, Raisa
+AU  - Murphy, Robin
+TI  - CRASAR-U-DROIDs: A Large Scale Benchmark Dataset for Building Alignment and Damage Assessment in Georectified sUAS Imagery
+T2  - arXiv preprint arXiv:2407.17673
+UR  - https://arxiv.org/abs/2407.17673
+PY  - 2024
+N1  - Jeu de donnees CC-BY : 21 716 batiments etiquetes sur orthophotos aeriennes, meme echelle de dommages (JDS) que xBD. Etablit que le decalage des emprises de batiments sur une orthophoto n'est PAS uniforme.
+KW  - jeu de donnees
+KW  - Joint Damage Scale
+KW  - recalage des emprises
+ER  - 
+
+TY  - JOUR
+AU  - Saito, Keiko
+AU  - Spence, Robin J. S.
+AU  - Going, Christopher
+AU  - Markus, Michael
+TI  - Using High-Resolution Satellite Images for Post-Earthquake Building Damage Assessment: A Study following the 26 January 2001 Gujarat Earthquake
+T2  - Earthquake Spectra
+PY  - 2004
+VL  - 20
+IS  - 1
+SP  - 145
+EP  - 169
+DO  - 10.1193/1.1650865
+UR  - https://doi.org/10.1193/1.1650865
+N1  - Source primaire la plus ancienne du constat de la toiture intacte : un batiment gravement endommage peut paraitre intact vu du dessus. Citee par Ainscoe et al. (2025), reference 26. ACCES FERME : aucune version en libre acces, passer par l'acces institutionnel AgroParisTech.
+KW  - vue verticale
+KW  - toiture intacte
+KW  - imagerie optique THR
+KW  - limites de l'optique
+ER  -
+
+TY  - JOUR
+AU  - Ehrlich, Daniele
+AU  - Guo, Huadong
+AU  - Molch, Katrin
+AU  - Ma, Jianwen
+AU  - Pesaresi, Martino
+TI  - Identifying damage caused by the 2008 Wenchuan earthquake from VHR remote sensing data
+T2  - International Journal of Digital Earth
+PY  - 2009
+VL  - 2
+IS  - 4
+SP  - 309
+EP  - 326
+DO  - 10.1080/17538940902767401
+UR  - https://doi.org/10.1080/17538940902767401
+N1  - Constat de la toiture intacte, sur le seisme du Wenchuan. Citee par Ainscoe et al. (2025), reference 9. Auteurs du Centre commun de recherche de la Commission europeenne. LIBRE LECTURE sur le site de l'editeur (statut bronze) ; la notice du depot JRC existe mais son texte integral est restreint a la Commission.
+KW  - vue verticale
+KW  - toiture intacte
+KW  - imagerie optique THR
+KW  - limites de l'optique
+KW  - Wenchuan
+ER  -
+
+TY  - JOUR
+AU  - Westrope, Clay
+AU  - Banick, Robert
+AU  - Levine, Mitch
+TI  - Groundtruthing OpenStreetMap Building Damage Assessment
+T2  - Procedia Engineering
+PY  - 2014
+VL  - 78
+SP  - 29
+EP  - 39
+DO  - 10.1016/j.proeng.2014.07.035
+UR  - https://doi.org/10.1016/j.proeng.2014.07.035
+N1  - Citee par Ainscoe et al. (2025), reference 27. Confrontation au terrain d'une evaluation de dommages produite par la communaute OpenStreetMap apres le typhon Haiyan. Interet direct pour la partie 2 : c'est le meme geste de validation que celui pratique ici avec ChatMap. LIBRE ACCES (diamant), mais ScienceDirect refuse le telechargement automatise ; recuperer le PDF a la main.
+KW  - vue verticale
+KW  - OpenStreetMap
+KW  - validation terrain
+KW  - cartographie participative
+KW  - typhon Haiyan
+ER  -
+
+TY  - RPRT
+AU  - Westrope, Clay
+AU  - Banick, Robert
+AU  - Levine, Mitch
+TI  - Groundtruthing OpenStreetMap Damage Assessment Review - Interim Report
+PB  - REACH Initiative / ACTED et American Red Cross, avec le soutien de l'USAID-OFDA
+PY  - 2014
+UR  - https://americanredcross.github.io/OSM-Assessment/
+N1  - Rapport complet dont l'article Procedia Engineering 78:29-39 est la version publiee. Conclusion des auteurs : les donnees OSM ne sont pas assez fiables en l'etat pour l'analyse de dommages et la planification du relevement, mais des investissements modestes en outillage, en procedures et en preparation avant catastrophe en feraient une plateforme solide. Precedent date de 2014 pour la validation terrain d'une cartographie participative.
+KW  - OpenStreetMap
+KW  - validation terrain
+KW  - cartographie participative
+KW  - typhon Haiyan
+L1  - F:\Application\Damage_detection\Biblio\Westrope_2014_Groundtruthing_OSM_rapport_REACH.pdf
+ER  -
+
+TY  - JOUR
+AU  - Dietrich, Olivier
+AU  - Peters, Torben
+AU  - Sainte Fare Garnot, Vivien
+AU  - Sticher, Valerie
+AU  - Ton-That Whelan, Thao
+AU  - Schindler, Konrad
+AU  - Wegner, Jan Dirk
+TI  - An open-source tool for mapping war destruction at scale in Ukraine using Sentinel-1 time series
+T2  - Communications Earth & Environment
+PY  - 2025
+DO  - 10.1038/s43247-025-02183-7
+UR  - https://doi.org/10.1038/s43247-025-02183-7
+N1  - LE concurrent direct du PWTT dans la categorie des OUTILS executables : apprentissage automatique sur series temporelles Sentinel-1, deploye sur Google Earth Engine, avec deux tableaux de bord publics dont un Rapid Damage Mapping Tool permettant de calculer sur sa propre emprise. Difference decisive pour ce travail : leur modele est SUPERVISE, entraine sur des evaluations de dommages ukrainiennes, donc non transposable tel quel a un cyclone ou a un seisme. Libre acces (or). Preprint arXiv:2406.02506.
+KW  - outil executable
+KW  - benchmark des outils
+KW  - apprentissage supervise
+KW  - Ukraine
+KW  - Sentinel-1
+ER  -
+
+TY  - COMP
+AU  - Salaheldin, A.
+TI  - PWTT QGIS Plugin: Pixel-Wise T-Test for building damage detection
+PY  - 2026
+PB  - depot officiel des greffons QGIS
+UR  - https://plugins.qgis.org/plugins/pwtt_qgis/
+N1  - Greffon QGIS tiers implementant le PWTT, avec trois moteurs au choix : openEO, Google Earth Engine, ou traitement entierement local. Publie en avril 2026. A connaitre pour situer honnetement la contribution de ce travail, qui n'est pas d'avoir porte le PWTT sous QGIS. A TESTER avant toute citation appuyee : depot recent, sans etoile ni fourche, activite limitee a deux semaines.
+KW  - outil executable
+KW  - QGIS
+KW  - PWTT
+ER  -
+
+TY  - ELEC
+AU  - Scher, Corey
+AU  - Van Den Hoek, Jamon
+TI  - Building Damage Assessment Portal - Open Access Satellite Conflict Damage Data
+PY  - 2026
+UR  - https://damage.conflict-ecology.org/
+N1  - Portail servant des donnees DEJA CALCULEES par coherence interferometrique : comparaison a l'optique, comptes par district, telechargement des couches. Remarquablement ouvert, mais categorie PRODUIT et non OUTIL : l'utilisateur ne peut y soumettre ni son emprise ni sa date. Illustre la frontiere que ce memoire cherche a deplacer.
+KW  - produit
+KW  - frontiere outil-produit
+KW  - coherence
+ER  -
+
+TY  - JOUR
+AU  - Student
+TI  - The Probable Error of a Mean
+T2  - Biometrika
+VL  - 6
+IS  - 1
+SP  - 1
+EP  - 25
+PY  - 1908
+DO  - 10.2307/2331554
+UR  - https://doi.org/10.2307/2331554
+N1  - L'article fondateur du test t. William Sealy Gosset, chimiste a la brasserie Guinness de Dublin, cherchait a savoir si deux lots d'orge donnaient des bieres reellement differentes a partir de PETITS echantillons. Guinness interdisant a ses employes de publier, il signe du pseudonyme Student, que Crossref enregistre encore aujourd'hui comme seul nom d'auteur. Le test suppose les deux variances EGALES : c'est cette hypothese que Welch (1947) leve, et c'est ce qui distingue la formule de Ballinger de ce que notre code calcule. Voir le chapitre 03.
+KW  - test t
+KW  - histoire des statistiques
+KW  - variance regroupee
+ER  -
+
+TY  - JOUR
+AU  - Welch, B. L.
+TI  - The generalization of Student's problem when several different population variances are involved
+T2  - Biometrika
+VL  - 34
+IS  - 1-2
+SP  - 28
+EP  - 35
+PY  - 1947
+DO  - 10.1093/biomet/34.1-2.28
+UR  - https://doi.org/10.1093/biomet/34.1-2.28
+N1  - La generalisation du test de Student au cas ou les deux echantillons n'ont pas la meme variance. C'est la forme que specifie l'equation (3) de Ballinger (2025), et celle que notre implementation n'applique pas : le code calcule une variance regroupee, donc un Student. Correctif d'une ligne, a faire avant le depot. Voir le chapitre 03, section 6.1.
+KW  - test t
+KW  - variances inegales
+KW  - PWTT
+ER  -
+
+TY  - CONF
+AU  - Vautherin, Joern
+AU  - Rutishauser, Simon
+AU  - Schneider-Zapp, Klaus
+AU  - Choi, Hon Fai
+AU  - Chovancova, Venera
+AU  - Glass, Alexis
+AU  - Strecha, Christoph
+TI  - Photogrammetric Accuracy and Modeling of Rolling Shutter Cameras
+T2  - ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences
+VL  - III-3
+SP  - 139
+EP  - 146
+PY  - 2016
+DO  - 10.5194/isprs-annals-III-3-139-2016
+N1  - Reference centrale sur l'obturateur deroulant en photogrammetrie. Integre la vitesse de la camera dans le modele plutot que de corriger les images en amont : la pose de chaque ligne est interpolee dans l'ajustement de faisceaux. Les essais portent sur une GoPro HERO4 Black - c'est de la que vient la valeur de 30 ms reprise par analogie dans notre profil HERO4 Silver, qui reste donc a confirmer.
+KW  - obturateur deroulant
+KW  - photogrammetrie
+KW  - GoPro
+KW  - partie 3
+ER  - 
+
+TY  - JOUR
+AU  - Zhou, Yilin
+AU  - Daakir, Mehdi
+AU  - Rupnik, Ewelina
+AU  - Pierrot-Deseilligny, Marc
+TI  - A two-step approach for the correction of rolling shutter distortion in UAV photogrammetry
+T2  - ISPRS Journal of Photogrammetry and Remote Sensing
+VL  - 160
+SP  - 51
+EP  - 66
+PY  - 2019
+DO  - 10.1016/j.isprsjprs.2019.11.020
+N1  - Correction de l'obturateur deroulant en deux temps, dans un cadre libre (MicMac). Interet pour nous : la methode ESTIME le temps de lecture au lieu de le supposer connu - c'est la voie de secours si la mesure a la diode ne tranche pas.
+KW  - obturateur deroulant
+KW  - MicMac
+KW  - logiciel libre
+KW  - partie 3
+ER  - 
+
+TY  - CONF
+AU  - Hastedt, Heidi
+AU  - Ekkel, Thomas
+AU  - Luhmann, Thomas
+TI  - Evaluation of the Quality of Action Cameras with Wide-Angle Lenses in UAV Photogrammetry
+T2  - The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences
+VL  - XLI-B1
+SP  - 851
+EP  - 859
+PY  - 2016
+DO  - 10.5194/isprs-archives-XLI-B1-851-2016
+N1  - La reference la plus directement sur notre sujet : qualite geometrique de cameras d'action a grand angle embarquees sur drone. Deux resultats que nous reprenons - la qualite atteignable depend au premier ordre du choix du modele de camera et de la geometrie du bloc, non de l'optique ; et l'orientation interne derive entre deux allumages, ce qui justifie l'auto-calibration par bloc plutot qu'une calibration de laboratoire.
+KW  - camera d'action
+KW  - grand angle
+KW  - calibration
+KW  - drone
+KW  - partie 3
+ER  - 
+
+TY  - JOUR
+AU  - Kannala, Juho
+AU  - Brandt, Sami S.
+TI  - A Generic Camera Model and Calibration Method for Conventional, Wide-Angle, and Fish-Eye Lenses
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+VL  - 28
+IS  - 8
+SP  - 1335
+EP  - 1340
+PY  - 2006
+DO  - 10.1109/TPAMI.2006.153
+N1  - Le modele de projection generique employe sous le nom de modele fisheye dans les bibliotheques de vision. Justifie de declarer fisheye et non brown pour la HERO4 en grand angle natif : sur un objectif fisheye, un modele rectilineaire fait compenser l'erreur de modele par des coefficients aberrants et la reconstruction se deforme aux bords.
+KW  - distorsion
+KW  - fisheye
+KW  - calibration
+KW  - partie 3
+ER  - 
+
+TY  - JOUR
+AU  - Tomastik, Julian
+AU  - Mokros, Martin
+AU  - Surovy, Peter
+AU  - Grznarova, Alzbeta
+AU  - Merganic, Jan
+TI  - UAV RTK/PPK Method - An Optimal Solution for Mapping Inaccessible Forested Areas?
+T2  - Remote Sensing
+VL  - 11
+IS  - 6
+SP  - 721
+PY  - 2019
+DO  - 10.3390/rs11060721
+N1  - Compare RTK et PPK sur drone, avec et sans points d'appui au sol. Sert a justifier notre choix du PPK sur le RTK : le PPK ne depend pas du maintien de la liaison pendant le vol, ce qui compte en contexte post-catastrophe ou l'on ne maitrise ni le relief ni les obstacles.
+KW  - RTK
+KW  - PPK
+KW  - geoferencement direct
+KW  - drone
+KW  - partie 3
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, He
+AU  - Aldana-Jague, Emilien
+AU  - Clapuyt, Francois
+AU  - Wilken, Florian
+AU  - Vanacker, Veerle
+AU  - Van Oost, Kristof
+TI  - Evaluating the potential of post-processing kinematic (PPK) georeferencing for UAV-based structure-from-motion (SfM) photogrammetry and surface change detection
+T2  - Earth Surface Dynamics
+VL  - 7
+SP  - 807
+EP  - 827
+PY  - 2019
+DO  - 10.5194/esurf-7-807-2019
+N1  - Quantifie ce qu'apporte le PPK a un bloc SfM et, surtout, distingue precision relative (geometrie interne du produit) et precision absolue (calage, qui depend de la position de la base). C'est exactement la distinction a faire pour presenter nos 2 cm de dispersion PPK sans les faire passer pour une exactitude absolue.
+KW  - PPK
+KW  - SfM
+KW  - precision relative
+KW  - partie 3
+ER  - 
+
+TY  - JOUR
+AU  - Groos, Alexander R.
+AU  - Bertschinger, Tamara J.
+AU  - Kummer, Celine M.
+AU  - Erlacher, Sabrina
+AU  - Munz, Silvan
+AU  - Zurbriggen, Andreas
+TI  - The Potential of Low-Cost UAVs and Open-Source Photogrammetry Software for High-Resolution Monitoring of Alpine Glaciers: A Case Study from the Kanderfirn (Swiss Alps)
+T2  - Geosciences
+VL  - 9
+IS  - 8
+SP  - 356
+PY  - 2019
+DO  - 10.3390/geosciences9080356
+N1  - Etablit qu'une chaine entierement libre, sur du materiel bon marche, atteint une qualite comparable aux solutions commerciales. C'est le precedent qui rend notre problematique plausible - et il montre aussi que le resultat depend du soin mis au plan de vol, ce qui justifie l'outil de planification.
+KW  - low-cost
+KW  - logiciel libre
+KW  - OpenDroneMap
+KW  - drone
+KW  - partie 3
+ER  - 

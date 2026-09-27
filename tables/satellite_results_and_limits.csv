@@ -1,0 +1,5 @@
+Question;Résultat retenu;Limite
+Le radar peut-il prioriser ?;Oui, par un score continu de changement anormal;Ne classe pas directement les dommages
+Une image rapide suffit-elle ?;Pas systématiquement;Le délai de l'acquisition reste déterminant
+La cohérence améliore-t-elle le classement ?;Oui, modestement dans les essais ciblés;Gain dépendant des produits et de l'emprise
+Les routes sont-elles détectées ?;Non, pas comme routes coupées;Seulement signalement de changement à vérifier

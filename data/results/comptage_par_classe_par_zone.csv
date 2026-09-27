@@ -1,0 +1,183 @@
+source,zone,classe_brute,n
+microsoft,caraballeda,damaged,763
+microsoft,catia_la_mar,damaged,10142
+microsoft,la_guaira,damaged,960
+impact,caraballeda,damaged (liste = deja endommage),3047
+impact,caracas,damaged (liste = deja endommage),17406
+impact,catia_la_mar,damaged (liste = deja endommage),5705
+impact,el_junquito,damaged (liste = deja endommage),3735
+impact,hors_aoi,damaged (liste = deja endommage),47000
+impact,la_guaira,damaged (liste = deja endommage),2821
+impact,moron,damaged (liste = deja endommage),1342
+impact,naiguata,damaged (liste = deja endommage),381
+osu,caraballeda,likely_damaged,7719
+osu,caraballeda,not_damaged,3862
+osu,caracas,likely_damaged,22778
+osu,caracas,not_damaged,168566
+osu,catia_la_mar,likely_damaged,16864
+osu,catia_la_mar,not_damaged,16356
+osu,el_junquito,likely_damaged,5227
+osu,el_junquito,not_damaged,53910
+osu,hors_aoi,likely_damaged,51642
+osu,hors_aoi,not_assessed,129
+osu,hors_aoi,not_damaged,2311138
+osu,la_guaira,likely_damaged,9618
+osu,la_guaira,not_damaged,9578
+osu,moron,likely_damaged,8475
+osu,moron,not_damaged,11850
+osu,naiguata,likely_damaged,1310
+osu,naiguata,not_damaged,1076
+uhsail,caraballeda,damaged,72
+uhsail,caraballeda,destroyed,607
+uhsail,caraballeda,intact,5362
+uhsail,caracas,damaged,15968
+uhsail,caracas,destroyed,2681
+uhsail,caracas,intact,167188
+uhsail,catia_la_mar,damaged,197
+uhsail,catia_la_mar,destroyed,784
+uhsail,catia_la_mar,intact,27087
+uhsail,el_junquito,damaged,65
+uhsail,el_junquito,destroyed,27
+uhsail,el_junquito,intact,33345
+uhsail,hors_aoi,damaged,56265
+uhsail,hors_aoi,destroyed,67
+uhsail,hors_aoi,intact,115370
+uhsail,la_guaira,damaged,3437
+uhsail,la_guaira,destroyed,119
+uhsail,la_guaira,intact,17502
+uhsail,moron,damaged,57
+uhsail,moron,destroyed,38
+uhsail,moron,intact,17848
+unep,caraballeda,damaged (liste = deja endommage),682
+unep,caracas,damaged (liste = deja endommage),16160
+unep,catia_la_mar,damaged (liste = deja endommage),6101
+unep,el_junquito,damaged (liste = deja endommage),2603
+unep,hors_aoi,damaged (liste = deja endommage),69267
+unep,la_guaira,damaged (liste = deja endommage),440
+unep,moron,damaged (liste = deja endommage),755
+unep,naiguata,damaged (liste = deja endommage),38
+fair,caraballeda,destroyed,7
+fair,caraballeda,major,16
+fair,caracas,destroyed,37
+fair,caracas,major,103
+fair,catia_la_mar,destroyed,3
+fair,catia_la_mar,major,22
+fair,la_guaira,destroyed,16
+fair,la_guaira,major,54
+fair,moron,destroyed,54
+fair,moron,major,99
+fair,naiguata,destroyed,5
+fair,naiguata,major,18
+ems,caraballeda,Damaged,189
+ems,caraballeda,Destroyed,253
+ems,caraballeda,Possibly damaged,206
+ems,catia_la_mar,Damaged,496
+ems,catia_la_mar,Destroyed,388
+ems,catia_la_mar,Possibly damaged,933
+ems,hors_aoi,Damaged,22
+ems,hors_aoi,Destroyed,3
+ems,hors_aoi,Possibly damaged,169
+ems,la_guaira,Damaged,90
+ems,la_guaira,Destroyed,40
+ems,la_guaira,Possibly damaged,175
+ems,moron,Damaged,31
+ems,moron,Destroyed,8
+ems,moron,Possibly damaged,49
+disha,caracas,FALSE,4944
+disha,caracas,TRUE,1
+disha,catia_la_mar,FALSE,19243
+disha,catia_la_mar,TRUE,241
+disha,hors_aoi,FALSE,2822
+disha,hors_aoi,TRUE,1
+disha,la_guaira,FALSE,11399
+disha,la_guaira,TRUE,1
+Chatmap,caraballeda,complete,136
+Chatmap,caraballeda,minimal,2
+Chatmap,caraballeda,significant,25
+Chatmap,caracas,complete,3
+Chatmap,caracas,minimal,15
+Chatmap,caracas,significant,5
+Chatmap,catia_la_mar,complete,171
+Chatmap,catia_la_mar,minimal,3
+Chatmap,catia_la_mar,significant,21
+Chatmap,el_junquito,complete,4
+Chatmap,el_junquito,minimal,1
+Chatmap,el_junquito,significant,1
+Chatmap,hors_aoi,complete,2
+Chatmap,hors_aoi,minimal,3
+Chatmap,hors_aoi,significant,5
+Chatmap,la_guaira,complete,12
+Chatmap,la_guaira,significant,6
+nasa_s1,caraballeda,Minor or no significant change,10037
+nasa_s1,caraballeda,Moderate backscatter decrease (requires validation),1078
+nasa_s1,caraballeda,Strong backscatter decrease (potential major structural change),344
+nasa_s1,caraballeda,Very strong backscatter decrease (priority investigation),117
+nasa_s1,caracas,Minor or no significant change,168346
+nasa_s1,caracas,Moderate backscatter decrease (requires validation),17465
+nasa_s1,caracas,Strong backscatter decrease (potential major structural change),3796
+nasa_s1,caracas,Very strong backscatter decrease (priority investigation),1001
+nasa_s1,catia_la_mar,Minor or no significant change,30449
+nasa_s1,catia_la_mar,Moderate backscatter decrease (requires validation),2149
+nasa_s1,catia_la_mar,Strong backscatter decrease (potential major structural change),492
+nasa_s1,catia_la_mar,Very strong backscatter decrease (priority investigation),139
+nasa_s1,el_junquito,Minor or no significant change,55767
+nasa_s1,el_junquito,Moderate backscatter decrease (requires validation),2850
+nasa_s1,el_junquito,Strong backscatter decrease (potential major structural change),475
+nasa_s1,el_junquito,Very strong backscatter decrease (priority investigation),73
+nasa_s1,hors_aoi,Minor or no significant change,251317
+nasa_s1,hors_aoi,Moderate backscatter decrease (requires validation),13099
+nasa_s1,hors_aoi,Strong backscatter decrease (potential major structural change),2224
+nasa_s1,hors_aoi,Very strong backscatter decrease (priority investigation),533
+nasa_s1,la_guaira,Minor or no significant change,17816
+nasa_s1,la_guaira,Moderate backscatter decrease (requires validation),1102
+nasa_s1,la_guaira,Strong backscatter decrease (potential major structural change),182
+nasa_s1,la_guaira,Very strong backscatter decrease (priority investigation),98
+nasa_s1,naiguata,Minor or no significant change,2197
+nasa_s1,naiguata,Moderate backscatter decrease (requires validation),168
+nasa_s1,naiguata,Strong backscatter decrease (potential major structural change),18
+nasa_s1,naiguata,Very strong backscatter decrease (priority investigation),4
+nasa_s2,caraballeda,High Probability,120
+nasa_s2,caraballeda,Low Probability,9996
+nasa_s2,caraballeda,Moderate Probability,934
+nasa_s2,caracas,High Probability,3738
+nasa_s2,caracas,Low Probability,153436
+nasa_s2,caracas,Moderate Probability,25300
+nasa_s2,catia_la_mar,High Probability,156
+nasa_s2,catia_la_mar,Low Probability,29770
+nasa_s2,catia_la_mar,Moderate Probability,3053
+nasa_s2,el_junquito,High Probability,794
+nasa_s2,el_junquito,Low Probability,47549
+nasa_s2,el_junquito,Moderate Probability,4978
+nasa_s2,hors_aoi,High Probability,2396
+nasa_s2,hors_aoi,Low Probability,205308
+nasa_s2,hors_aoi,Moderate Probability,19329
+nasa_s2,la_guaira,High Probability,64
+nasa_s2,la_guaira,Low Probability,18265
+nasa_s2,la_guaira,Moderate Probability,718
+nasa_s2,naiguata,High Probability,9
+nasa_s2,naiguata,Low Probability,228
+nasa_s2,naiguata,Moderate Probability,20
+eos,caraballeda,dark_red,1122
+eos,caraballeda,orange,351
+eos,caraballeda,yellow,4548
+eos,caracas,dark_red,1642
+eos,caracas,orange,360
+eos,caracas,yellow,7365
+eos,catia_la_mar,dark_red,2174
+eos,catia_la_mar,orange,713
+eos,catia_la_mar,yellow,8336
+eos,el_junquito,dark_red,341
+eos,el_junquito,orange,95
+eos,el_junquito,yellow,1082
+eos,hors_aoi,dark_red,5342
+eos,hors_aoi,orange,1657
+eos,hors_aoi,yellow,18459
+eos,la_guaira,dark_red,1721
+eos,la_guaira,orange,404
+eos,la_guaira,yellow,5578
+eos,moron,dark_red,51
+eos,moron,orange,35
+eos,moron,yellow,186
+eos,naiguata,dark_red,100
+eos,naiguata,orange,46
+eos,naiguata,yellow,435

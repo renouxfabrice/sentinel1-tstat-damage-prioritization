@@ -1,0 +1,76 @@
+source,zone,classe_brute,n
+microsoft,EMSR884/AOI00 - Central Coastal Venezuela,damaged,246
+microsoft,EMSR884/AOI12 - Caraballeda,damaged,11619
+impact,EMSR884/AOI00 - Central Coastal Venezuela,damaged (liste = deja endommage),68745
+impact,EMSR884/AOI11 - Villa de Cura,damaged (liste = deja endommage),420
+impact,EMSR884/AOI12 - Caraballeda,damaged (liste = deja endommage),12026
+impact,hors_aoi,damaged (liste = deja endommage),246
+osu,EMSR884/AOI00 - Central Coastal Venezuela,likely_damaged,85354
+osu,EMSR884/AOI00 - Central Coastal Venezuela,not_assessed,1
+osu,EMSR884/AOI00 - Central Coastal Venezuela,not_damaged,2435002
+osu,EMSR884/AOI11 - Villa de Cura,likely_damaged,164
+osu,EMSR884/AOI11 - Villa de Cura,not_assessed,1
+osu,EMSR884/AOI11 - Villa de Cura,not_damaged,52661
+osu,EMSR884/AOI12 - Caraballeda,likely_damaged,35860
+osu,EMSR884/AOI12 - Caraballeda,not_damaged,32178
+osu,hors_aoi,likely_damaged,2255
+osu,hors_aoi,not_assessed,127
+osu,hors_aoi,not_damaged,56495
+uhsail,EMSR884/AOI00 - Central Coastal Venezuela,damaged,70175
+uhsail,EMSR884/AOI00 - Central Coastal Venezuela,destroyed,2813
+uhsail,EMSR884/AOI00 - Central Coastal Venezuela,intact,331632
+uhsail,EMSR884/AOI11 - Villa de Cura,damaged,2182
+uhsail,EMSR884/AOI11 - Villa de Cura,intact,1857
+uhsail,EMSR884/AOI12 - Caraballeda,damaged,3704
+uhsail,EMSR884/AOI12 - Caraballeda,destroyed,1510
+uhsail,EMSR884/AOI12 - Caraballeda,intact,50213
+unep,EMSR884/AOI00 - Central Coastal Venezuela,damaged (liste = deja endommage),85177
+unep,EMSR884/AOI11 - Villa de Cura,damaged (liste = deja endommage),2401
+unep,EMSR884/AOI12 - Caraballeda,damaged (liste = deja endommage),7129
+unep,hors_aoi,damaged (liste = deja endommage),1339
+fair,EMSR884/AOI00 - Central Coastal Venezuela,destroyed,92
+fair,EMSR884/AOI00 - Central Coastal Venezuela,major,204
+fair,EMSR884/AOI12 - Caraballeda,destroyed,30
+fair,EMSR884/AOI12 - Caraballeda,major,108
+ems,EMSR884/AOI00 - Central Coastal Venezuela,Damaged,53
+ems,EMSR884/AOI00 - Central Coastal Venezuela,Destroyed,11
+ems,EMSR884/AOI00 - Central Coastal Venezuela,Possibly damaged,218
+ems,EMSR884/AOI12 - Caraballeda,Damaged,775
+ems,EMSR884/AOI12 - Caraballeda,Destroyed,681
+ems,EMSR884/AOI12 - Caraballeda,Possibly damaged,1314
+disha,EMSR884/AOI00 - Central Coastal Venezuela,FALSE,7495
+disha,EMSR884/AOI00 - Central Coastal Venezuela,TRUE,2
+disha,EMSR884/AOI12 - Caraballeda,FALSE,30913
+disha,EMSR884/AOI12 - Caraballeda,TRUE,242
+Chatmap,EMSR884/AOI00 - Central Coastal Venezuela,complete,9
+Chatmap,EMSR884/AOI00 - Central Coastal Venezuela,minimal,19
+Chatmap,EMSR884/AOI00 - Central Coastal Venezuela,significant,11
+Chatmap,EMSR884/AOI12 - Caraballeda,complete,319
+Chatmap,EMSR884/AOI12 - Caraballeda,minimal,5
+Chatmap,EMSR884/AOI12 - Caraballeda,significant,52
+nasa_s1,EMSR884/AOI00 - Central Coastal Venezuela,Minor or no significant change,474726
+nasa_s1,EMSR884/AOI00 - Central Coastal Venezuela,Moderate backscatter decrease (requires validation),33305
+nasa_s1,EMSR884/AOI00 - Central Coastal Venezuela,Strong backscatter decrease (potential major structural change),6469
+nasa_s1,EMSR884/AOI00 - Central Coastal Venezuela,Very strong backscatter decrease (priority investigation),1609
+nasa_s1,EMSR884/AOI12 - Caraballeda,Minor or no significant change,61203
+nasa_s1,EMSR884/AOI12 - Caraballeda,Moderate backscatter decrease (requires validation),4606
+nasa_s1,EMSR884/AOI12 - Caraballeda,Strong backscatter decrease (potential major structural change),1062
+nasa_s1,EMSR884/AOI12 - Caraballeda,Very strong backscatter decrease (priority investigation),356
+nasa_s2,EMSR884/AOI00 - Central Coastal Venezuela,High Probability,6925
+nasa_s2,EMSR884/AOI00 - Central Coastal Venezuela,Low Probability,406867
+nasa_s2,EMSR884/AOI00 - Central Coastal Venezuela,Moderate Probability,49592
+nasa_s2,EMSR884/AOI12 - Caraballeda,High Probability,352
+nasa_s2,EMSR884/AOI12 - Caraballeda,Low Probability,57685
+nasa_s2,EMSR884/AOI12 - Caraballeda,Moderate Probability,4740
+eos,EMSR884/AOI00 - Central Coastal Venezuela,dark_red,6566
+eos,EMSR884/AOI00 - Central Coastal Venezuela,orange,1902
+eos,EMSR884/AOI00 - Central Coastal Venezuela,yellow,24490
+eos,EMSR884/AOI11 - Villa de Cura,dark_red,59
+eos,EMSR884/AOI11 - Villa de Cura,orange,8
+eos,EMSR884/AOI11 - Villa de Cura,yellow,150
+eos,EMSR884/AOI12 - Caraballeda,dark_red,5135
+eos,EMSR884/AOI12 - Caraballeda,orange,1507
+eos,EMSR884/AOI12 - Caraballeda,yellow,18953
+eos,hors_aoi,dark_red,733
+eos,hors_aoi,orange,244
+eos,hors_aoi,yellow,2396

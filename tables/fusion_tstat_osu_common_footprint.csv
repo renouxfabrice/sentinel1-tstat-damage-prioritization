@@ -1,0 +1,8 @@
+Score;AUC Copernicus;AUC ChatMap;Moyenne
+Fusion T-stat × OSU, moyenne pondérée;0,752;0,775;0,764
+Fusion T-stat × OSU, moyenne simple;0,752;0,775;0,763
+Fusion T-stat × OSU, conjonction;0,741;0,777;0,759
+Notre T-stat seul;0,727;0,754;0,740
+OSU seul;0,729;0,735;0,732
+NASA DRCS S2 seul;0,713;0,719;0,716
+Fusion T-stat × OSU, disjonction;0,700;0,694;0,697
