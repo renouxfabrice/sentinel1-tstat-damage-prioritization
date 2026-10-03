@@ -596,11 +596,30 @@ A second bias appears in this campaign. Since the reference period covers twelve
 
 ## 6 Comparing methods on the same objects
 
+### 6.1 How the results are measured
+
+Every comparison in this work rests on one measure, the area under the curve, and on two construction decisions that make it possible. Those decisions weigh as much as the methods being evaluated.
+
+**What the area under the curve measures.** The tool does not assign a verdict to each building: it assigns a continuous score, and it is the order of those scores that decides where to start. The area under the curve is the probability that a genuinely damaged building, drawn at random, receives a higher score than an undamaged building drawn at random. A value of 0.5 corresponds to a ranking carrying no information, a value of 1 to a perfect ranking. It depends on no threshold, which is its strength; it says nothing about how many buildings must be visited, which is its limit.
+
+**First decision: from points to building footprints.** The available references — Copernicus EMS and ChatMap — do not deliver footprints but report points, whereas the results concern building footprints. The layer used is Overture for Venezuela and Open Buildings for Jamaica. A point falling inside a footprint is assigned to it; if several fall inside, the most severe prevails; a point falling inside none is attached to the nearest free footprint, distance being measured to the outline; and a footprint never receives more than one point.
+
+**Second decision: where the undamaged buildings come from.** An area under the curve requires positives and negatives. Yet the references list only what is damaged: they enumerate no undamaged building. The convention adopted is Ballinger's — inside the footprint actually examined by the reference service, any building outline that no report designates is held to be intact. Restricting this to the examined footprint is essential: outside it, the absence of a report means nothing, because nobody looked.
+
+In Venezuela, the 288,374 Overture footprints of the EMSR884 activation footprint thus split into 2,922 reported buildings and 285,452 buildings held to be intact. It is this construction that allows everything below to speak of true and false positives.
+
+![From point reports to a building-level truth](figures/figure_18.png)
+
+**Figure 18 — From point reports to a building-level truth.** Footprint of the Copernicus EMSR884 activation. Positives gather the *Possibly damaged*, *Damaged* and *Destroyed* classes.
+
+**What this construction does not guarantee.** A building held to be intact is so in the reference's sense, not the ground's. Copernicus EMS rests on interpreting images taken vertically, and a building can lose a facade, have its floors pancake onto one another, or tilt on a soft storey without its roof ceasing to occupy the same ground area. The user's accuracy of the "no visible damage" class reaches only 42 % when confronted with a drone survey. A false positive in the sense of this work may therefore be a genuinely damaged building that the reference missed.
+
+
 Comparing methods makes sense only if they are evaluated on the same objects, with the same references and the same metric. A comparison over different areas may in fact favour the method that happened to process the easier sector.
 
 The question is therefore not only "which method obtains the best AUC?", but also "on which buildings was that AUC computed?".
 
-### 6.1 Why compare over a common footprint?
+### 6.2 Why compare over a common footprint?
 
 A first reading evaluates each product over its own area. It describes what the user actually receives, but does not allow the methods to be compared directly: the buildings, the prevalence of damage and the difficulty of interpretation may differ.
 
@@ -613,7 +632,7 @@ This precaution matters here, because the T-stat's coverage is not uniform acros
 
 Ranking power and coverage must therefore be kept apart. A method may perform well over a restricted area, while another covers more buildings with somewhat different performance.
 
-### 6.2 The ranking over the common footprint
+### 6.3 The ranking over the common footprint
 
 The intersection of the wide-area products represents 148,159 buildings and 1,558 Copernicus reports across 20 municipalities. The resulting ranking is:
 
@@ -642,7 +661,7 @@ The order is not the same when each product is evaluated over its own area: the 
 
 Wide-area products can obtain a high AUC by including lightly affected municipalities or areas where the separation between damaged and intact buildings is simpler. The common footprint, by contrast, is concentrated on the sectors covered by all products, and hence on areas where the comparison is more demanding. Part of the lead observed for NASA DRCS S2 and OSU in the individual ranking could therefore come from the territory evaluated rather than from the quality of the method alone.
 
-### 6.3 Head to head on the same buildings
+### 6.4 Head to head on the same buildings
 
 A second reading consists in comparing our T-stat directly with each product, retaining only the buildings covered by both methods. Each opponent is thus evaluated over a footprint shared with our tool.
 
@@ -670,7 +689,7 @@ The head-to-head with IMPACT Initiatives is particularly instructive. Over 204,9
 
 This observation must nonetheless remain confined to the protocol studied. It does not support the conclusion that the IMPACT product is worthless in all contexts, only that it does not correctly discriminate the buildings of this sample according to the two ground truths used.
 
-### 6.4 Comparing only the buildings present in every product
+### 6.5 Comparing only the buildings present in every product
 
 A third experiment requires all twelve products to cover the same buildings simultaneously. The sample falls to 5,489 buildings, 329 Copernicus reports and five municipalities.
 
@@ -695,7 +714,7 @@ The T-stat remains first, but this reading is secondary. The sample is too small
 
 OSU's collapse to 0.548 may suggest that coherence discriminates less well in an area where damage is very widespread and spatially concentrated. If coherence is degraded over a large part of the area, it may lose its capacity to distinguish genuinely affected buildings from their neighbours. This interpretation nonetheless remains a hypothesis: five municipalities are not enough to establish it.
 
-### 6.5 What can be concluded from the ranking?
+### 6.6 What can be concluded from the ranking?
 
 Three conclusions can be drawn.
 
@@ -964,7 +983,37 @@ The T-stat × OSU fusion reaches about 90 % of buildings found with a smaller sh
 
 The fusion of twelve products also performs well, but its advantage must be weighed against its production cost and against the real availability of the products. A fusion using twelve heterogeneous sources may perform well in a retrospective analysis while being difficult to reproduce in the first hours of a disaster.
 
-### 8.6 What the experiment allows one to conclude
+### 8.6 What the fusion changes for a field team
+
+The preceding tables report areas under the curve. They measure ranking power, which is useful but abstract. An assessment cell asks a different question: to recover nine damaged buildings out of ten, how many addresses must it visit, and how many for nothing?
+
+The operating point is therefore fixed so that every configuration recovers the same number of reported buildings, and the cost is counted. Ranking is redone inside each Copernicus EMS footprint, then the counts are summed; San Felipe does not appear, for want of coherence coverage.
+
+![At an identical result, fusion removes nearly a quarter of the useless visits](figures/figure_19.png)
+
+**Figure 19 — At an identical result, fusion removes nearly a quarter of the useless visits.** Every configuration recovers the same 2,381 reported buildings, nine out of ten in each footprint; only the length of the list to check varies.
+
+| Configuration | Addresses | Reported | Useless | Precision | Visits avoided |
+|---|---|---|---|---|---|
+| T-stat alone | 44,356 | 2,381 | 41,975 | 5.37 % | — |
+| T-stat × our DPM2 (empirical) | 43,052 | 2,381 | 40,671 | 5.53 % | 1,304 |
+| T-stat × our OSU | 41,262 | 2,381 | 38,881 | 5.77 % | 3,094 |
+| T-stat × our DPM1 (one pair) | 38,718 | 2,381 | 36,337 | 6.15 % | 5,638 |
+| T-stat × our DPM1 (matched mean) | 34,986 | 2,381 | 32,605 | 6.81 % | 9,370 |
+| T-stat × our DPM1 (multi co-event) | 34,079 | 2,381 | 31,698 | 6.99 % | 10,277 |
+| T-stat × published OSU | 31,113 | 2,381 | 28,732 | 7.65 % | 13,243 |
+
+Used alone, the T-stat designates 44,356 addresses for 2,381 genuinely reported buildings: a team makes nineteen trips for one result. The best of our reproductions brings the list down to 34,079 addresses, that is 10,277 fewer useless visits for exactly the same number of buildings found. No reported building is lost.
+
+If instead the list length is held constant rather than the result, the fusion recovers 2,487 reported buildings instead of 2,381: one hundred and six more, and as many false leads fewer. In both readings, the feared trade-off does not exist.
+
+![Averaging the ranks is enough](figures/figure_20.png)
+
+**Figure 20 — Averaging the ranks is enough: conjunction and disjunction degrade.** Mean contribution of each rule relative to the better of the two products taken separately.
+
+Two caveats accompany these figures. The published product does better than our reproduction — 13,243 visits spared against 10,277 — which the depth of the reference stack and the number of post-event acquisitions explain; when a product has been published for the event, it should be used, and the reproduction serves when there is none. And the gain concentrates where damage is dense: it becomes negligible over footprints where the reference reports almost nothing.
+
+### 8.7 What the experiment allows one to conclude
 
 Fusing intensity and coherence improves the ranking, but the gain remains modest. The most solid conclusion is therefore not that fusion radically transforms the method, but that it brings a measurable and reproducible improvement when the two signals are combined by averaging.
 
@@ -1105,6 +1154,14 @@ The results support four conclusions:
 4. Coherence is useful as information complementary to intensity, but it must not be presented alone as a direct measure of severity or passability.
 
 The method retained in what follows therefore keeps coherence as a complementary component, to be fused with intensity in cases where both products are available. The final result remains an indicator of change and prioritisation, not an automatic certification of damage.
+
+### 9.8 Two defects found while reproducing
+
+**The raster saturated on writing.** The map stored Φ(z) in single-precision floating point, and Φ(z) reaches 1.0 as soon as z exceeds about 5.5. The whole top of the ranking — the part that is actually used — became a block of ties, and agreement with the published product fell from 0.47 to 0.43. The z itself must be kept. The Oregon State University team publishes its tiers in z, at 1.5, 2.0 and 3.0, which is only readable that way.
+
+**Detrending degraded the result.** Our DPM2 divided each coherence by an exponential model of temporal decay, a procedure borrowed from Jung et al. (2018) that the Oregon State University method does not use, since it matches baselines instead. On a shallow stack the model fitted at 399 days and the procedure seemed inert; on a deeper stack it settles at eleven days and becomes clearly harmful — agreement falls from 0.47 to 0.38, and ranking power from 0.866 to 0.811. It is dropped.
+
+**And a naming confusion, cleared up.** O'Donnell's equation (2.4) defines DPM2 as one minus the cumulative distribution of pre-event coherences, evaluated at the co-event coherence: that is the empirical estimator, which we called "rank". The z estimator, which we also called DPM2, is the parametric form used by Oregon State University, not the published equation. An empirical estimator over n pairs can take only n+1 values: with twelve pairs it carries only thirty-eight across one hundred and eighty-five thousand buildings, and its ranking power falls to 0.55. This is not an implementation defect but the limit of the equation applied to few images — a limit the source itself anticipates by referring to Jung et al. for modelling the distribution rather than estimating it.
 
 ## 10 What the satellite allows one to decide
 

@@ -596,11 +596,30 @@ Un second biais apparaît sur cette campagne. La période de référence couvran
 
 ## 6 Comparer les méthodes sur les mêmes objets
 
+### 6.1 Comment les résultats sont mesurés
+
+Toutes les comparaisons de ce travail reposent sur une même mesure, l'aire sous la courbe, et sur deux décisions de construction qui la rendent possible. Ces décisions pèsent autant que les méthodes évaluées.
+
+**Ce que mesure l'aire sous la courbe.** L'outil n'attribue pas un verdict à chaque bâtiment : il lui attribue un score continu, et c'est l'ordre de ces scores qui sert à décider par où commencer. L'aire sous la courbe vaut la probabilité qu'un bâtiment réellement endommagé, tiré au hasard, reçoive un score plus élevé qu'un bâtiment intact tiré au hasard. Une valeur de 0,5 correspond à un classement sans information, une valeur de 1 à un classement parfait. Elle ne dépend d'aucun seuil, ce qui est sa qualité ; elle ne dit rien du nombre de bâtiments à visiter, ce qui est sa limite.
+
+**Première décision : des points vers des empreintes bâties.** Les références disponibles — Copernicus EMS et ChatMap — ne livrent pas des empreintes mais des points de signalement, quand les résultats portent sur des empreintes bâties. La couche retenue est Overture pour le Venezuela et Open Buildings pour la Jamaïque. Un point tombant dans une empreinte lui est assigné ; si plusieurs y tombent, le plus sévère l'emporte ; un point ne tombant dans aucune empreinte est rattaché à l'empreinte libre la plus proche, la distance étant mesurée au contour ; et une empreinte ne reçoit jamais plus d'un point.
+
+**Seconde décision : d'où viennent les bâtiments intacts.** Une aire sous la courbe exige des positifs et des négatifs. Or les références ne recensent que ce qui est abîmé : elles n'énumèrent aucun bâtiment intact. La convention retenue est celle qu'emploie Ballinger — à l'intérieur de l'emprise effectivement examinée par le service de référence, toute empreinte bâtie qu'aucun signalement ne désigne est tenue pour intacte. Cette restriction à l'emprise examinée est essentielle : hors d'elle, l'absence de signalement ne veut rien dire, puisque personne n'a regardé.
+
+Au Venezuela, les 288 374 empreintes Overture de l'emprise de l'activation EMSR884 se répartissent ainsi en 2 922 bâtiments signalés et 285 452 bâtiments tenus pour intacts. C'est cette construction qui autorise, dans tout ce qui suit, à parler de vrais et de faux positifs.
+
+![Des signalements ponctuels à une vérité par bâtiment](figures/figure_18.png)
+
+**Figure 18 — Des signalements ponctuels à une vérité par bâtiment.** Emprise de l'activation Copernicus EMSR884. Les positifs réunissent les classes *Possibly damaged*, *Damaged* et *Destroyed*.
+
+**Ce que cette construction ne garantit pas.** Un bâtiment tenu pour intact l'est au sens de la référence, non au sens du terrain. Copernicus EMS repose sur l'interprétation d'images prises à la verticale, et un bâtiment peut perdre une façade, voir ses planchers s'écraser les uns sur les autres ou basculer sur un niveau souple sans que sa toiture cesse d'occuper la même surface au sol. La précision de la classe « dommage non visible » n'atteint que 42 % lorsqu'on la confronte à un levé par drone. Un faux positif au sens de ce travail peut donc être un bâtiment réellement endommagé que la référence a manqué.
+
+
 Comparer des méthodes n’a de sens que si elles sont évaluées sur les mêmes objets, avec les mêmes références et la même métrique. Une comparaison sur des emprises différentes peut en effet favoriser la méthode qui a traité le secteur le plus simple.
 
 La question n’est donc pas seulement « quelle méthode obtient la meilleure AUC ? », mais aussi « sur quels bâtiments cette AUC a-t-elle été calculée ? ».
 
-### 6.1 Pourquoi comparer sur une emprise commune ?
+### 6.2 Pourquoi comparer sur une emprise commune ?
 
 Une première lecture évalue chaque produit sur sa propre emprise. Elle décrit ce que l’utilisateur reçoit effectivement, mais ne permet pas de comparer directement les méthodes : les bâtiments, la prévalence des dommages et la difficulté d’interprétation peuvent différer.
 
@@ -613,7 +632,7 @@ Cette précaution est importante ici, car la couverture du T-stat n’est pas un
 
 Il faut donc séparer pouvoir de classement et couverture. Une méthode peut être performante sur une zone restreinte, tandis qu’une autre couvre davantage de bâtiments avec une performance un peu différente.
 
-### 6.2 Le classement sur l'emprise commune
+### 6.3 Le classement sur l'emprise commune
 
 L'intersection des produits à large emprise représente 148 159 bâtiments et 1 558 signalements Copernicus répartis dans 20 communes. Le classement obtenu est le suivant :
 
@@ -642,7 +661,7 @@ L’ordre n’est pas le même lorsque chaque produit est évalué sur sa propre
 
 Les produits à large emprise peuvent obtenir une AUC élevée en intégrant des communes peu touchées ou des zones où la séparation entre bâtiments endommagés et bâtiments intacts est plus simple. L'emprise commune est au contraire concentrée sur les secteurs couverts par tous les produits, et donc sur des zones où la comparaison est plus exigeante. Une partie de l'avance observée pour NASA DRCS S2 et OSU dans le classement individuel pouvait donc provenir du territoire évalué plutôt que de la seule qualité de la méthode.
 
-### 6.3 Le face-à-face sur les mêmes bâtiments
+### 6.4 Le face-à-face sur les mêmes bâtiments
 
 Une seconde lecture consiste à comparer directement notre T-stat à chaque produit, en retenant uniquement les bâtiments couverts par les deux méthodes. Chaque adversaire est ainsi évalué sur une emprise commune avec notre outil.
 
@@ -670,7 +689,7 @@ Le face-à-face avec IMPACT Initiatives est particulièrement instructif. Sur 20
 
 Ce constat doit toutefois rester limité au protocole étudié. Il ne permet pas de conclure que le produit IMPACT est sans valeur dans tous les contextes, mais seulement qu'il ne discrimine pas correctement les bâtiments de cet échantillon selon les deux vérités utilisées.
 
-### 6.4 Comparer uniquement les bâtiments présents dans tous les produits
+### 6.5 Comparer uniquement les bâtiments présents dans tous les produits
 
 Une troisième expérience impose que les douze produits couvrent simultanément les mêmes bâtiments. L’échantillon tombe à 5 489 bâtiments, 329 signalements Copernicus et cinq communes.
 
@@ -695,7 +714,7 @@ La T-stat reste première, mais cette lecture est secondaire. L’échantillon e
 
 L'effondrement d'OSU à 0,548 peut suggérer que la cohérence discrimine moins bien dans une zone où les dommages sont très nombreux et spatialement concentrés. Si la cohérence est dégradée sur une grande partie de la zone, elle peut perdre sa capacité à distinguer les bâtiments réellement touchés des bâtiments voisins. Cette interprétation reste toutefois une hypothèse : cinq communes ne suffisent pas à l'établir.
 
-### 6.5 Que peut-on conclure du classement ?
+### 6.6 Que peut-on conclure du classement ?
 
 Trois conclusions peuvent être retenues.
 
@@ -963,7 +982,37 @@ La fusion T-stat × OSU atteint environ 90 % de bâtiments retrouvés avec une p
 
 La fusion des douze produits atteint également de bonnes performances, mais son avantage doit être rapporté à son coût de production et à la disponibilité réelle des produits. Une fusion utilisant douze sources hétérogènes peut être performante dans une analyse rétrospective, mais difficile à reproduire dans les premières heures d'une catastrophe.
 
-### 8.6 Ce que l'expérience permet de conclure
+### 8.6 Ce que la fusion change pour une équipe
+
+Les tableaux précédents rapportent des aires sous la courbe. Elles mesurent un pouvoir de classement, ce qui est utile mais abstrait. Une cellule d'évaluation pose une autre question : pour retrouver neuf dégâts sur dix, combien d'adresses devra-t-elle visiter, et combien pour rien ?
+
+On fixe donc le point de fonctionnement de sorte que chaque configuration retrouve le même nombre de bâtiments signalés, et l'on compte ce qu'il en coûte. Le classement est refait à l'intérieur de chaque emprise du Copernicus EMS, puis les comptes sont additionnés ; San Felipe n'y figure pas, faute de couverture de cohérence.
+
+![À résultat identique, la fusion retire près d'un quart des visites inutiles](figures/figure_19.png)
+
+**Figure 19 — À résultat identique, la fusion retire près d'un quart des visites inutiles.** Chaque configuration retrouve les mêmes 2 381 bâtiments signalés, soit neuf sur dix de chaque emprise ; seule varie la longueur de la liste à vérifier.
+
+| Configuration | Adresses | Signalés | Inutiles | Précision | Visites évitées |
+|---|---|---|---|---|---|
+| Test t seul | 44 356 | 2 381 | 41 975 | 5,37 % | — |
+| Test t × notre DPM2 (empirique) | 43 052 | 2 381 | 40 671 | 5,53 % | 1 304 |
+| Test t × notre OSU | 41 262 | 2 381 | 38 881 | 5,77 % | 3 094 |
+| Test t × notre DPM1 (une paire) | 38 718 | 2 381 | 36 337 | 6,15 % | 5 638 |
+| Test t × notre DPM1 (moyenne appariée) | 34 986 | 2 381 | 32 605 | 6,81 % | 9 370 |
+| Test t × notre DPM1 (multi co-sismique) | 34 079 | 2 381 | 31 698 | 6,99 % | 10 277 |
+| Test t × OSU publié | 31 113 | 2 381 | 28 732 | 7,65 % | 13 243 |
+
+Employé seul, le test t désigne 44 356 adresses pour 2 381 bâtiments réellement signalés : une équipe fait dix-neuf déplacements pour un résultat. La meilleure de nos reproductions ramène la liste à 34 079 adresses, soit 10 277 visites inutiles de moins pour exactement le même nombre de bâtiments retrouvés. Aucun bâtiment signalé n'est perdu.
+
+Si l'on garde au contraire la même longueur de liste plutôt que le même résultat, la fusion retrouve 2 487 bâtiments signalés au lieu de 2 381 : cent six de plus, et autant de fausses pistes en moins. Dans les deux lectures, le compromis redouté n'existe pas.
+
+![Moyenner les rangs suffit](figures/figure_20.png)
+
+**Figure 20 — Moyenner les rangs suffit : la conjonction et la disjonction dégradent.** Apport moyen de chaque règle par rapport au meilleur des deux produits pris isolément.
+
+Deux réserves accompagnent ces chiffres. Le produit publié fait mieux que notre reproduction — 13 243 visites épargnées contre 10 277 — ce qui s'explique par la profondeur de la pile de référence et le nombre d'acquisitions postérieures ; lorsqu'un produit est publié sur l'événement, il faut donc l'employer, et la reproduction sert quand il n'y en a pas. Et le gain se concentre là où les dégâts sont denses : il devient négligeable sur les emprises où la référence ne signale presque rien.
+
+### 8.7 Ce que l'expérience permet de conclure
 
 La fusion de l'intensité et de la cohérence améliore le classement, mais le gain reste modeste. La conclusion la plus solide n'est donc pas que la fusion transforme radicalement la méthode, mais qu'elle apporte une amélioration mesurable et reproductible lorsque les deux signaux sont combinés par moyenne.
 
@@ -1104,6 +1153,14 @@ Les résultats autorisent quatre conclusions :
 4. La cohérence est utile comme information complémentaire de l'intensité, mais elle ne doit pas être présentée seule comme une mesure directe de la gravité ou de la praticabilité.
 
 La méthode retenue dans la suite conserve donc la cohérence comme une composante complémentaire, à fusionner avec l'intensité dans les cas où les deux produits sont disponibles. Le résultat final reste un indicateur de changement et de priorisation, non une certification automatique du dommage.
+
+### 9.8 Deux défauts trouvés en reproduisant
+
+**Le raster saturait à l'écriture.** La carte enregistrait Φ(z) en virgule flottante simple, et Φ(z) atteint 1,0 dès que z dépasse environ 5,5. Tout le haut du classement — celui qui sert — devenait un bloc d'ex æquo, et la concordance avec le produit publié tombait de 0,47 à 0,43. Il faut conserver le z lui-même. L'équipe de l'Oregon State University publie d'ailleurs ses paliers en z, à 1,5, 2,0 et 3,0, ce qui n'est lisible qu'ainsi.
+
+**Le détendage dégradait.** Notre DPM2 divisait chaque cohérence par un modèle exponentiel de décroissance temporelle, procédé emprunté à Jung et al. (2018) que la méthode de l'Oregon State University n'emploie pas, puisqu'elle apparie les lignes de base. Sur une pile courte le modèle s'ajustait à 399 jours et le procédé semblait inerte ; sur une pile plus profonde il se cale à onze jours et devient nettement nuisible — la concordance tombe de 0,47 à 0,38, et le pouvoir de classement de 0,866 à 0,811. Il est écarté.
+
+**Et une confusion de nomenclature, levée.** L'équation (2.4) d'O'Donnell définit DPM2 comme un moins la fonction de répartition des cohérences pré-événement, évaluée à la cohérence co-sismique : c'est l'estimateur empirique, que nous appelions « rang ». L'estimateur en z, que nous appelions aussi DPM2, est la forme paramétrique employée par l'Oregon State University, et non l'équation publiée. Un estimateur empirique sur n paires ne peut prendre que n+1 valeurs : avec douze paires, il n'en porte que trente-huit sur cent quatre-vingt-cinq mille bâtiments, et son pouvoir de classement tombe à 0,55. Ce n'est pas un défaut de mise en œuvre mais la limite de l'équation appliquée à peu d'images — limite que la source elle-même anticipe en renvoyant à Jung et al. pour modéliser la loi plutôt que l'estimer.
 
 ## 10 Ce que le satellite permet de décider
 
