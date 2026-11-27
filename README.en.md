@@ -114,7 +114,9 @@ Third-party data keeps its own licences. Conditions and attributions are in [`ta
 
 This version is archived on Zenodo and citable by its persistent
 identifier: **[10.5281/zenodo.24601724](https://doi.org/10.5281/zenodo.24601724)**. The full citation format is in
-[`CITATION.cff`](CITATION.cff).
+[`CITATION.cff`](CITATION.cff). To point not at this version but at the
+latest one, whichever it is, the identifier is
+[10.5281/zenodo.24601723](https://doi.org/10.5281/zenodo.24601723).
 
 ## Contact
 

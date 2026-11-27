@@ -114,7 +114,9 @@ Les données tierces gardent leurs propres licences. Les conditions et les attri
 
 Cette version est archivée sur Zenodo et citable par son identifiant
 pérenne : **[10.5281/zenodo.24601724](https://doi.org/10.5281/zenodo.24601724)**. Le format complet de la
-citation est dans [`CITATION.cff`](CITATION.cff).
+citation est dans [`CITATION.cff`](CITATION.cff). Pour renvoyer non pas à
+cette version mais à la plus récente, quelle qu'elle soit, l'identifiant
+est [10.5281/zenodo.24601723](https://doi.org/10.5281/zenodo.24601723).
 
 ## Contact
 
