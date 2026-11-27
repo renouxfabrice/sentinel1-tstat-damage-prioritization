@@ -2,6 +2,8 @@
 
 **Language / Langue :** 🇬🇧 English · 🇫🇷 [Français](README.md)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24601724.svg)](https://doi.org/10.5281/zenodo.24601724)
+
 After a sudden disaster, the question is not only where the damage is. In the field, the real question is usually:
 
 > **where should the checking start?**
@@ -110,7 +112,9 @@ The code is released under the [MIT](LICENSE) licence.
 
 Third-party data keeps its own licences. Conditions and attributions are in [`tables/datasets_sources_licences.csv`](tables/datasets_sources_licences.csv).
 
-To cite this work, see [`CITATION.cff`](CITATION.cff).
+This version is archived on Zenodo and citable by its persistent
+identifier: **[10.5281/zenodo.24601724](https://doi.org/10.5281/zenodo.24601724)**. The full citation format is in
+[`CITATION.cff`](CITATION.cff).
 
 ## Contact
 

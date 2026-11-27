@@ -22,6 +22,7 @@ version: 1.0.0
 date-released: "2026-11-27"
 license: MIT
 repository-code: "https://github.com/renouxfabrice/sentinel1-tstat-damage-prioritization"
+doi: "10.5281/zenodo.24601724"
 keywords:
   - Sentinel-1
   - synthetic aperture radar

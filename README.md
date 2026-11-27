@@ -2,6 +2,8 @@
 
 **Language / Langue :** 🇬🇧 [English](README.en.md) · 🇫🇷 Français
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24601724.svg)](https://doi.org/10.5281/zenodo.24601724)
+
 Après une catastrophe soudaine, la question n'est pas seulement de savoir où il y a des dégâts. Sur le terrain, la vraie question est souvent :
 
 > **par où commencer les vérifications ?**
@@ -110,7 +112,9 @@ Le code est distribué sous licence [MIT](LICENSE).
 
 Les données tierces gardent leurs propres licences. Les conditions et les attributions sont dans [`tables/datasets_sources_licences.csv`](tables/datasets_sources_licences.csv).
 
-Pour citer ce travail, voir [`CITATION.cff`](CITATION.cff).
+Cette version est archivée sur Zenodo et citable par son identifiant
+pérenne : **[10.5281/zenodo.24601724](https://doi.org/10.5281/zenodo.24601724)**. Le format complet de la
+citation est dans [`CITATION.cff`](CITATION.cff).
 
 ## Contact
 
