@@ -15,6 +15,18 @@ modifiant les valeurs par defaut ci-dessous :
     S1_TSTAT_COHERENCE    produits interferometriques et leurs tables de paires
     S1_TSTAT_WHITEHOUSE   le cas cyclonique, dont les couches sont tenues a part
 
+Les programmes de `reevaluation/` en demandent trois de plus :
+
+    S1_TSTAT_TRAVAUX      les cartes de score intermediaires, une par experience
+                          (exp14_cuba, exp17_colombie, exp77_une_image,
+                          exp78_fenetre_pre, exp82_nepal)
+    S1_TSTAT_REEVALUATION le dossier de la seance du 30 septembre, ou sont
+                          ecrits `resultats/` et les dossiers `cartes*`
+    S1_TSTAT_MODULES      le dossier qui contient le module du test t
+                          (`pwtt_masque_parametrable.py`, `pwtt_exp70.py`).
+                          Ce module n'est pas redistribue ici : voir la section
+                          « A propos du test t » du README.
+
 Les sorties sont ecrites a cote des entrees, dans le sous-dossier que declare
 chaque script en tete de son bloc CONFIGURATION.
 """
@@ -23,6 +35,12 @@ import os
 DONNEES = os.environ.get("S1_TSTAT_DONNEES", os.path.join("..", "donnees"))
 COHERENCE = os.environ.get("S1_TSTAT_COHERENCE", os.path.join("..", "donnees", "coherence"))
 WHITEHOUSE = os.environ.get("S1_TSTAT_WHITEHOUSE", os.path.join("..", "donnees", "whitehouse"))
+
+TRAVAUX = os.environ.get("S1_TSTAT_TRAVAUX", os.path.join("..", "travaux"))
+REEVALUATION = os.environ.get("S1_TSTAT_REEVALUATION",
+                              os.path.join("..", "travaux", "reevaluation"))
+MODULES_TSTAT = os.environ.get("S1_TSTAT_MODULES",
+                               os.path.join("..", "modules_tstat"))
 
 
 def verifier(*racines):
@@ -36,6 +54,8 @@ def verifier(*racines):
         raise SystemExit(
             "Racine de donnees introuvable :\n  "
             + "\n  ".join(os.path.abspath(r) for r in manquantes)
-            + "\n\nRenseignez S1_TSTAT_DONNEES, S1_TSTAT_COHERENCE ou "
-              "S1_TSTAT_WHITEHOUSE, ou modifiez src/config.py."
+            + "\n\nRenseignez la variable d'environnement correspondante "
+              "(S1_TSTAT_DONNEES, S1_TSTAT_COHERENCE, S1_TSTAT_WHITEHOUSE, "
+              "S1_TSTAT_TRAVAUX, S1_TSTAT_REEVALUATION, S1_TSTAT_MODULES), "
+              "ou modifiez src/config.py."
         )

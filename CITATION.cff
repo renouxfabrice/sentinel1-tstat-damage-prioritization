@@ -6,16 +6,20 @@ abstract: >-
   classement des bâtiments à vérifier après une catastrophe soudaine. La méthode
   est confrontée à deux vérités de référence indépendantes sur une emprise
   strictement commune de 148 159 bâtiments, comparée à onze autres produits de
-  dommage, et fusionnée avec la cohérence interférométrique. Deux cas d'étude :
-  le cyclone Melissa (Jamaïque, octobre 2025) et le séisme du Venezuela du
-  24 juin 2026.
+  dommage, et fusionnée avec la cohérence interférométrique : la moyenne
+  pondérée des rangs avec le produit OSU porte l'AUC moyenne de 0,740 à 0,764.
+  Deux cas d'étude sur le bâti, le cyclone Melissa (Jamaïque, octobre 2025) et
+  le séisme du Venezuela du 24 juin 2026, et un troisième sur les routes et les
+  ponts, la lave torrentielle du Népal du 26 août 2026. Le dépôt embarque les
+  tables de résultats, les programmes qui les calculent et six carnets qui
+  rejouent chacun des chiffres publiés.
 type: dataset
 authors:
   - family-names: Renoux
     given-names: Fabrice
     alias: renouxfabrice
-version: 1.0.0
-date-released: "2026-09-27"
+version: 1.1.0
+date-released: "2026-11-27"
 license: MIT
 repository-code: "https://github.com/renouxfabrice/sentinel1-tstat-damage-prioritization"
 keywords:
@@ -29,8 +33,13 @@ keywords:
   - humanitarian response
   - earthquake
   - tropical cyclone
+  - glacial lake outburst flood
+  - road network
   - Copernicus Emergency Management Service
   - reproducibility
+  - Jamaica
+  - Venezuela
+  - Nepal
 references:
   - type: article
     authors:

@@ -1,11 +1,19 @@
 # Le code
 
-Les 46 scripts de ce dossier calculent l'ensemble des tables de
+Les 61 scripts de ce dossier calculent l'ensemble des tables de
 [`data/results/`](../data/results/). Ils sont publiés dans l'état où ils ont
 servi, à trois différences près : l'en-tête de chacun a été ramené à une phrase
 décrivant ce qu'il calcule, les chemins absolus ont été déportés dans
 [`config.py`](config.py), et les commentaires qui renvoyaient à l'avancement du
 travail plutôt qu'au calcul ont été retirés.
+
+Trois modules ne calculent rien par eux-mêmes et servent aux autres :
+[`evaluation_commune.py`](evaluation_commune.py), qui porte la lecture des
+rasters, le centrage par unité administrative et le calcul d'AUC ;
+[`appariement.py`](appariement.py), qui rattache un signalement ponctuel à une
+empreinte bâtie selon la règle stricte décrite dans l'étude ; et
+[`reevaluation/telechargement.py`](reevaluation/telechargement.py), qui récupère
+les exports Earth Engine.
 
 ## Avant d'exécuter
 
@@ -15,10 +23,17 @@ racines sont à renseigner dans [`config.py`](config.py) ou par variable
 d'environnement : `S1_TSTAT_DONNEES`, `S1_TSTAT_COHERENCE` et
 `S1_TSTAT_WHITEHOUSE`.
 
+Les programmes de [`reevaluation/`](reevaluation/) en demandent trois de plus :
+`S1_TSTAT_TRAVAUX`, le dossier qui porte les cartes de score intermédiaires ;
+`S1_TSTAT_REEVALUATION`, celui où sont écrits `resultats/` et les dossiers
+`cartes*` ; et `S1_TSTAT_MODULES`, le dossier qui contient le module du test t
+— lequel n'est pas fourni, voir la section suivante.
+
 Les scripts s'exécutent avec les liaisons Python de GDAL/OGR, hors de QGIS ; un
 interpréteur d'installation OSGeo4W convient. Aucun n'a besoin de réseau, sauf
 le téléchargement facultatif du masque terre dans les deux scripts de
-recouvrement.
+recouvrement, et les programmes de calcul de `reevaluation/`, qui passent par
+Earth Engine.
 
 ## Le T-stat lui-même
 
@@ -73,6 +88,7 @@ publiée — de quoi réécrire l'un ou l'autre sans le recopier.
 | [`comptage_par_classe_par_zone_aoi_cems.py`](evaluation/comptage_par_classe_par_zone_aoi_cems.py) | Même comptage par classe native, restreint à l'emprise de l'activation Copernicus EMS. | [`comptage_par_classe_par_zone.csv`](../data/results/comptage_par_classe_par_zone.csv), [`comptage_par_classe_par_zone_EMSR884_aoi.csv`](../data/results/comptage_par_classe_par_zone_EMSR884_aoi.csv) |
 | [`dommages_par_zone_aoi_directe.py`](evaluation/dommages_par_zone_aoi_directe.py) | Comptage des dommages par zone d'analyse par jointure spatiale directe, sans passer par les unités administratives. | [`dommages_par_zone_aoi_directe.csv`](../data/results/dommages_par_zone_aoi_directe.csv) |
 | [`exp42_aoi_commun.py`](evaluation/exp42_aoi_commun.py) | Classement des produits de dommage sur l'emprise strictement commune, en aire sous la courbe par commune contre deux vérités de référence, avec trois lectures : l'emprise commune aux produits à large couverture, le face-à-face par paire, et l'intersection stricte des douze produits. | [`exp42_aoi_commun_face_a_face.csv`](../data/results/exp42_aoi_commun_face_a_face.csv), [`exp42_aoi_commun_intersection.csv`](../data/results/exp42_aoi_commun_intersection.csv) |
+| [`exp44_six_questions.py`](evaluation/exp44_six_questions.py) | Recalcule en un seul passage tous les chiffres des six questions de l'étude, sous un jeu de règles unique : zéros de remplissage relus comme absence de donnée, AUC mesurée par commune, et chaque produit noté deux fois — sur son emprise propre et sur l'emprise commune. C'est la source de la série grise de la figure 11. | [`exp44_six_questions.csv`](../data/results/exp44_six_questions.csv) |
 | [`jamaique_evaluation_tstat.py`](evaluation/jamaique_evaluation_tstat.py) | Évaluation du raster T-stat sur le cas cyclonique : quatre règles d'agrégation par bâtiment, deux sources d'empreintes et deux vérités de référence, sans jamais recalculer le raster. | [`jamaique_seuils_tstat_agregations.csv`](../data/results/jamaique_seuils_tstat_agregations.csv) |
 | [`mmi_source_comptage_coherence.py`](evaluation/mmi_source_comptage_coherence.py) | Comptage des dommages par tranche d'intensité MMI et par produit, puis vérification que le taux de dommage de chaque produit croît bien avec l'intensité sismique. | [`mmi_coherence_analyse.csv`](../data/results/mmi_coherence_analyse.csv), [`mmi_source_comptage.csv`](../data/results/mmi_source_comptage.csv) |
 | [`recouvrement_aoi_par_source.py`](evaluation/recouvrement_aoi_par_source.py) | Part de chaque zone de référence couverte par l'emprise d'analyse propre à chaque produit, en traitant les quatre formes sous lesquelles cette emprise est publiée. | [`recouvrement_aoi_par_source.csv`](../data/results/recouvrement_aoi_par_source.csv) |
@@ -98,10 +114,36 @@ publiée — de quoi réécrire l'un ou l'autre sans le recopier.
 | [`build_couches_finales_overture.py`](preprocessing/build_couches_finales_overture.py) | Documente le seuil et les poids retenus pour chaque combinaison de méthode et de portée, puis projette ces paramètres sur l'ensemble des bâtiments pour produire les couches finales. | [`reference_parametres.csv`](../data/results/reference_parametres.csv) |
 | [`exp63_inventaire_paires_coherence.py`](preprocessing/exp63_inventaire_paires_coherence.py) | Inventaire consolidé des paires interférométriques employées pour les calculs de cohérence, rassemblées depuis cinq fichiers de schémas différents en un tableau unique portant le nom de zone de chaque paire. | [`image_pairs.csv`](../data/results/image_pairs.csv), [`image_pairs2.csv`](../data/results/image_pairs2.csv) |
 
+### La réévaluation du 1er octobre 2026
+
+Ces quinze programmes sont ceux de la séance du 30 septembre au 1er octobre, qui a repris les calculs de délai, de fenêtre et d'agrégation dans la configuration réelle de l'outil — variance regroupée, orbites combinées par maximum — et sous la convention d'évaluation décrite dans l'étude : Open Buildings en Jamaïque, Overture au Venezuela, appariement strict, prévalence bornée entre 5 et 95 %. Ils sont rangés à part parce qu'ils forment une chaîne : un programme **calcule** des cartes de score, un autre les **réévalue**, et les figures 5, 6 et 7 sortent du second.
+
+Les programmes de calcul passent par Earth Engine et chargent le module du test t depuis `S1_TSTAT_MODULES` ; ce module n'étant pas redistribué, ils ne s'exécutent pas en l'état. Les programmes de réévaluation, eux, ne relisent que des cartes déjà écrites.
+
+| script | ce qu'il calcule | tables produites |
+|---|---|---|
+| [`exp73_venezuela.py`](reevaluation/exp73_venezuela.py) | Calcule les cartes de score du séisme vénézuélien dans huit variantes de réglage, depuis Earth Engine. | — |
+| [`exp73_evaluation.py`](reevaluation/exp73_evaluation.py) | Évalue ces cartes contre Copernicus EMS, variante par variante, en AUC par commune. | [`exp73_detail.csv`](../data/results/exp73_detail.csv) |
+| [`exp74_croisement_campagnes.py`](reevaluation/exp74_croisement_campagnes.py) | Met les deux campagnes côte à côte : chaque réglage y est jugé sur la Jamaïque et sur le Venezuela, pour voir si l'ordre tient d'un aléa à l'autre. | [`exp74_deux_campagnes.csv`](../data/results/exp74_deux_campagnes.csv) |
+| [`exp75_tout_reevaluer.py`](reevaluation/exp75_tout_reevaluer.py) | Réévalue l'ensemble des cartes jamaïcaines sous la convention actuelle, une ligne par emprise et par configuration. | [`exp75_detail.csv`](../data/results/exp75_detail.csv) |
+| [`exp77_une_image_regroupee.py`](reevaluation/exp77_une_image_regroupee.py) | Calcule, pour dix emprises réparties dans quatre pays, le score à une seule image postérieure puis les scores à 2, 3, 5, 7 et 9 images, en variance regroupée. | [`exp77_une_image_regroupee.csv`](../data/results/exp77_une_image_regroupee.csv) |
+| [`exp80_reevaluer_exp77.py`](reevaluation/exp80_reevaluer_exp77.py) | Réévalue ces mêmes cartes sur Open Buildings et Overture, avec l'appariement strict. C'est la table des figures 5 et 7. | [`exp80_une_image_reevaluee.csv`](../data/results/exp80_une_image_reevaluee.csv) |
+| [`exp78_fenetre_pre_regroupee.py`](reevaluation/exp78_fenetre_pre_regroupee.py) | Balaie la longueur de la période de référence — 3, 6, 9, 12, 18 et 24 mois — la fenêtre postérieure restant fixée à trois images. | — |
+| [`exp81_reevaluer_exp78.py`](reevaluation/exp81_reevaluer_exp78.py) | Réévalue ce balayage sous la convention actuelle. C'est la table de la figure 6. | [`exp81_fenetre_pre_reevaluee.csv`](../data/results/exp81_fenetre_pre_reevaluee.csv) |
+| [`exp79_tableau_annexe_L.py`](reevaluation/exp79_tableau_annexe_L.py) | Met en tableau, emprise par emprise, ce que l'image unique coûte et ce qu'elle fait gagner en délai. | [`exp79_annexe_L.csv`](../data/results/exp79_annexe_L.csv) |
+| [`exp82_nepal_calcul.py`](reevaluation/exp82_nepal_calcul.py) | Calcule les cartes de score de la lave torrentielle népalaise, sur les emprises de l'activation EMSR927. | — |
+| [`exp82_nepal_evaluation.py`](reevaluation/exp82_nepal_evaluation.py) | Évalue ces cartes sur les routes et les ponts, dans les quatre manières de résumer les pixels d'un objet linéaire. | [`exp82_nepal.csv`](../data/results/exp82_nepal.csv) |
+| [`exp83_nepal_route_signature.py`](reevaluation/exp83_nepal_route_signature.py) | Extrait la signature radar de chaque tronçon routier de l'activation, pour repérer ceux que le test t voit et ceux qu'il manque. | — |
+| [`exp83b_serie_vv.py`](reevaluation/exp83b_serie_vv.py) | Série temporelle VV du pont emporté de Bidur, panneau gauche de la figure 17. | [`exp83_serie_vv_bidur.csv`](../data/results/exp83_serie_vv_bidur.csv) |
+| [`exp86_serie_piste_ensevelie.py`](reevaluation/exp86_serie_piste_ensevelie.py) | Série temporelle VV de la piste ensevelie sous les sédiments, panneau droit de la figure 17. | [`exp86_serie_vv_piste.csv`](../data/results/exp86_serie_vv_piste.csv) |
+| [`telechargement.py`](reevaluation/telechargement.py) | Récupère un export Earth Engine et attend qu'il soit disponible. **Ne calcule rien.** | — |
+
+Les deux tables `exp49_fenetre_pre*.csv` sont une exécution antérieure de `exp78_fenetre_pre_regroupee.py` — ce programme porte encore le numéro 49 dans son en-tête — faite en test de Welch, avant le changement de convention. Elles sont conservées pour que l'écart entre les deux configurations reste mesurable.
+
 ### Les tables que le tableau ci-dessus ne relie pas
 
-Onze des soixante-quatre tables de [`data/results/`](../data/results/) ne
-portent pas le nom qu'un script publié déclare écrire. Deux raisons, et aucune
+Quatorze des soixante-seize tables de [`data/results/`](../data/results/)
+ne portent pas le nom qu'un script publié déclare écrire. Deux raisons, et aucune
 n'est un trou dans la traçabilité — mais elles ne se valent pas, et le lecteur a
 le droit de savoir laquelle s'applique.
 

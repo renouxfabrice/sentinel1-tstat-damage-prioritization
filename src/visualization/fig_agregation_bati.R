@@ -36,7 +36,7 @@
 source("commun.R")
 library(patchwork)
 
-d <- read.csv2("agregation_bati.csv", stringsAsFactors = FALSE, dec = ".")
+d <- lire_resultat("agregation_bati.csv")
 
 # L'ordre de lecture : du plus diffus au plus local, de bas en haut.
 ORDRE <- c("moyenne", "p75", "p90", "maximum")

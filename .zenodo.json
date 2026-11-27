@@ -1,0 +1,42 @@
+{
+  "upload_type": "dataset",
+  "title": "Évaluation et amélioration par fusion d'une méthode de classement de bâtiments post-catastrophe avec Sentinel-1",
+  "creators": [
+    {
+      "name": "Renoux, Fabrice"
+    }
+  ],
+  "description": "<p>Évaluation d'un test t par pixel sur séries temporelles Sentinel-1 comme classement des bâtiments à vérifier après une catastrophe soudaine. La méthode est confrontée à deux vérités de référence indépendantes sur une emprise strictement commune de 148 159 bâtiments, comparée à onze autres produits de dommage, et fusionnée avec la cohérence interférométrique : la moyenne pondérée des rangs avec le produit OSU porte l'AUC moyenne de 0,740 à 0,764.</p><p>Deux cas d'étude sur le bâti — le cyclone Melissa (Jamaïque, octobre 2025) et le séisme du Venezuela du 24 juin 2026 — et un troisième sur les routes et les ponts, la lave torrentielle du Népal du 26 août 2026.</p><p>Le dépôt embarque le texte de l'étude, ses 20 figures, 76 tables de résultats, 15 tables de synthèse, les 61 programmes qui les calculent et six carnets qui rejouent chacun des chiffres publiés. Les acquisitions Sentinel-1 ne sont pas redistribuées : leur inventaire indique pour chaque fichier son origine et son rôle.</p>",
+  "access_right": "open",
+  "license": "mit",
+  "language": "fra",
+  "version": "1.1.0",
+  "keywords": [
+    "Sentinel-1",
+    "synthetic aperture radar",
+    "pixel-wise t-test",
+    "building damage assessment",
+    "interferometric coherence",
+    "data fusion",
+    "rapid damage assessment",
+    "humanitarian response",
+    "earthquake",
+    "tropical cyclone",
+    "glacial lake outburst flood",
+    "road network",
+    "Copernicus Emergency Management Service",
+    "reproducibility",
+    "Jamaica",
+    "Venezuela",
+    "Nepal"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.rse.2025.115025",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Le code et les textes sont sous licence MIT ; les données tierces gardent leurs propres licences, recensées dans tables/datasets_sources_licences.csv. La part prise par un outil d'intelligence artificielle dans la production du dépôt est décrite dans AI_USE.md."
+}

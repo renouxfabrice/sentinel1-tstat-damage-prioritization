@@ -7,11 +7,11 @@
 | Gradation de dommage Copernicus EMS | non | page de l'activation EMSR884 ; conditions Copernicus EMS |
 | Signalements de terrain (ChatMap) | non | conditions du propriétaire du jeu |
 | Produits de dommage tiers | non | chacun à sa source : les adresses sont dans le dictionnaire des méthodes, en annexe du document |
-| **Tables de résultats** | **oui** | [`data/results/`](../../data/results/) — 64 tables |
-| **Tableaux du document** | **oui** | [`tables/`](../../tables/) — 14 tableaux |
-| **Illustrations du document** | **oui** | [`docs/partie_2/figures/`](../partie_2/figures/) — 17 figures |
+| **Tables de résultats** | **oui** | [`data/results/`](../../data/results/) — 76 tables |
+| **Tableaux du document** | **oui** | [`tables/`](../../tables/) — 15 tableaux |
+| **Illustrations du document** | **oui** | [`docs/partie_2/figures/`](../partie_2/figures/) — 20 figures |
 | **Produits tiers employés en entrée** | **oui** | [`data/raw/produits_tiers/`](../../data/raw/produits_tiers/) — 5 fichiers, avec leurs attributions |
-| **Code des calculs** | **oui** | [`src/`](../../src/) — 46 scripts |
+| **Code des calculs** | **oui** | [`src/`](../../src/) — 61 programmes |
 
 ## Des identifiants, pas des données
 

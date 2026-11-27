@@ -11,7 +11,7 @@ import sys
 import numpy as np
 
 RACINE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, RACINE)
+sys.path.insert(0, RACINE); sys.path.insert(0, os.path.dirname(RACINE))
 import evaluation_commune as ev            # noqa: E402
 
 RES = os.path.join(RACINE, "resultats")

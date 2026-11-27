@@ -1,0 +1,147 @@
+echantillon;mesure;note;provenance;question;valeur
+288671 batiments, 2273 signalements;seisme — agregation maximum, vs Copernicus;;exp27c_table_maitresse_v2.npz;Q1;0.7171
+180268 batiments, 65 signalements;seisme — agregation maximum, vs ChatMap;;exp27c_table_maitresse_v2.npz;Q1;0.7803
+;seisme — agregation maximum, moyenne des deux verites;;calcul exp44;Q1;0.7487
+288671 batiments, 2273 signalements;seisme — agregation moyenne, vs Copernicus;;exp27c_table_maitresse_v2.npz;Q1;0.7079
+180268 batiments, 65 signalements;seisme — agregation moyenne, vs ChatMap;;exp27c_table_maitresse_v2.npz;Q1;0.7441
+;seisme — agregation moyenne, moyenne des deux verites;;calcul exp44;Q1;0.726
+288644 batiments, 2273 signalements;seisme — agregation centile 75, vs Copernicus;;exp27c_table_maitresse_v2.npz;Q1;0.7117
+180247 batiments, 65 signalements;seisme — agregation centile 75, vs ChatMap;;exp27c_table_maitresse_v2.npz;Q1;0.7584
+;seisme — agregation centile 75, moyenne des deux verites;;calcul exp44;Q1;0.735
+288663 batiments, 2273 signalements;seisme — agregation centile 90, vs Copernicus;;exp27c_table_maitresse_v2.npz;Q1;0.7146
+180261 batiments, 65 signalements;seisme — agregation centile 90, vs ChatMap;;exp27c_table_maitresse_v2.npz;Q1;0.7701
+;seisme — agregation centile 90, moyenne des deux verites;;calcul exp44;Q1;0.7424
+2750 batiments, 2083 signalements;cyclone — White House, agregation maximum;;calcul exp44 sur raster archive;Q1;0.5775
+2750 batiments, 2083 signalements;cyclone — White House, agregation moyenne;;calcul exp44 sur raster archive;Q1;0.6013
+2750 batiments, 2083 signalements;cyclone — White House, agregation centile75;;calcul exp44 sur raster archive;Q1;0.593
+2750 batiments, 2083 signalements;cyclone — White House, agregation centile90;;calcul exp44 sur raster archive;Q1;0.5848
+2010 batiments, 1503 signalements;cyclone — Black River Village, agregation maximum;;calcul exp44 sur raster archive;Q1;0.6264
+2010 batiments, 1503 signalements;cyclone — Black River Village, agregation moyenne;;calcul exp44 sur raster archive;Q1;0.6127
+2010 batiments, 1503 signalements;cyclone — Black River Village, agregation centile75;;calcul exp44 sur raster archive;Q1;0.6168
+2010 batiments, 1503 signalements;cyclone — Black River Village, agregation centile90;;calcul exp44 sur raster archive;Q1;0.6205
+2 zones;cyclone — agregation maximum, moyenne des zones;;calcul exp44;Q1;0.602
+2 zones;cyclone — agregation moyenne, moyenne des zones;;calcul exp44;Q1;0.607
+2 zones;cyclone — agregation centile75, moyenne des zones;;calcul exp44;Q1;0.6049
+2 zones;cyclone — agregation centile90, moyenne des zones;;calcul exp44;Q1;0.6026
+29 mesures de zone;seuil median calibre sur les zones jamaicaines;;exp16_seuils_par_zone.csv;Q1;3.1
+24 communes;part des batiments depassant ce seuil, commune la plus touchee;;calcul exp44;Q1;5.5
+24 communes;part des batiments depassant ce seuil, mediane des communes;;calcul exp44;Q1;0.3
+29 zones;delai median de la premiere image radar (heures);;exp20a_latence_acquisition.csv;Q2;30.3
+29 zones;part des zones avec une image en moins de 48 h (%);;calcul exp44;Q2;86.2
+29 zones;part des zones avec DEUX images en moins de 48 h (%);le test de Welch exige deux images posterieures par orbite;calcul exp44;Q2;24.1
+5 zones;delai median de la deuxieme image de la MEME orbite (jours);;exp21b_delai_deuxieme_image_meme_orbite.csv;Q2;8.0
+9 zones appariees;z-score 1 image contre Welch 3 images — ecart moyen d'AUC;;calcul exp44 sur exp21_ztest_vs_welch.csv;Q2;-0.042
+;zones ou le z-score a une image fait aussi bien ou mieux;;calcul exp44;Q2;5 / 9
+;delai median du z-score a une image (jours);;calcul exp44;Q2;2.47
+;delai median du Welch a trois images (jours);;calcul exp44;Q2;8.47
+;jours gagnes (mediane);;calcul exp44;Q2;6.0
+8 produits;emprise commune aux produits a large couverture (batiments);;calcul exp44;Q3;148159
+288671 batiments, 2273 signalements;emprise propre — notre T-stat, vs Copernicus;;calcul exp44;Q3;0.7171
+180268 batiments, 65 signalements;emprise propre — notre T-stat, vs ChatMap;;calcul exp44;Q3;0.7803
+;emprise propre — notre T-stat, moyenne des deux verites;;calcul exp44;Q3;0.7487
+80385 batiments, 963 signalements;emprise propre — BDPM (notre reproduction), vs Copernicus;;calcul exp44;Q3;0.7459
+74436 batiments, 40 signalements;emprise propre — BDPM (notre reproduction), vs ChatMap;;calcul exp44;Q3;0.7378
+;emprise propre — BDPM (notre reproduction), moyenne des deux verites;;calcul exp44;Q3;0.7419
+41942 batiments, 1525 signalements;emprise propre — EOS-RS, vs Copernicus;;calcul exp44;Q3;0.6326
+44126 batiments, 53 signalements;emprise propre — EOS-RS, vs ChatMap;;calcul exp44;Q3;0.6865
+;emprise propre — EOS-RS, moyenne des deux verites;;calcul exp44;Q3;0.6596
+1048345 batiments, 2273 signalements;emprise propre — OSU, vs Copernicus;;calcul exp44;Q3;0.8092
+549154 batiments, 83 signalements;emprise propre — OSU, vs ChatMap;;calcul exp44;Q3;0.7946
+;emprise propre — OSU, moyenne des deux verites;;calcul exp44;Q3;0.8019
+499486 batiments, 2003 signalements;emprise propre — NASA DRCS S1, vs Copernicus;;calcul exp44;Q3;0.5055
+472494 batiments, 83 signalements;emprise propre — NASA DRCS S1, vs ChatMap;;calcul exp44;Q3;0.5652
+;emprise propre — NASA DRCS S1, moyenne des deux verites;;calcul exp44;Q3;0.5353
+469370 batiments, 1998 signalements;emprise propre — NASA DRCS S2, vs Copernicus;;calcul exp44;Q3;0.737
+427572 batiments, 83 signalements;emprise propre — NASA DRCS S2, vs ChatMap;;calcul exp44;Q3;0.7602
+;emprise propre — NASA DRCS S2, moyenne des deux verites;;calcul exp44;Q3;0.7486
+948924 batiments, 2090 signalements;emprise propre — IMPACT Initiatives, vs Copernicus;;calcul exp44;Q3;0.4746
+552424 batiments, 83 signalements;emprise propre — IMPACT Initiatives, vs ChatMap;;calcul exp44;Q3;0.5145
+;emprise propre — IMPACT Initiatives, moyenne des deux verites;;calcul exp44;Q3;0.4946
+585036 batiments, 2003 signalements;emprise propre — UNGSC, vs Copernicus;;calcul exp44;Q3;0.7047
+425461 batiments, 83 signalements;emprise propre — UNGSC, vs ChatMap;;calcul exp44;Q3;0.6333
+;emprise propre — UNGSC, moyenne des deux verites;;calcul exp44;Q3;0.669
+84738 batiments, 2003 signalements;emprise propre — Microsoft AI for Good, vs Copernicus;;calcul exp44;Q3;0.5911
+83288 batiments, 55 signalements;emprise propre — Microsoft AI for Good, vs ChatMap;;calcul exp44;Q3;0.6194
+;emprise propre — Microsoft AI for Good, moyenne des deux verites;;calcul exp44;Q3;0.6053
+496580 batiments, 2090 signalements;emprise propre — fAIr HOTOSM, vs Copernicus;;calcul exp44;Q3;0.6363
+446255 batiments, 81 signalements;emprise propre — fAIr HOTOSM, vs ChatMap;;calcul exp44;Q3;0.7063
+;emprise propre — fAIr HOTOSM, moyenne des deux verites;;calcul exp44;Q3;0.6713
+41826 batiments, 1352 signalements;emprise propre — DISHA, vs Copernicus;;calcul exp44;Q3;0.3245
+41826 batiments, 22 signalements;emprise propre — DISHA, vs ChatMap;;calcul exp44;Q3;0.3583
+;emprise propre — DISHA, moyenne des deux verites;;calcul exp44;Q3;0.3414
+275478 batiments, 1643 signalements;emprise propre — UH SAIL, vs Copernicus;;calcul exp44;Q3;0.5938
+257687 batiments, 48 signalements;emprise propre — UH SAIL, vs ChatMap;;calcul exp44;Q3;0.3974
+;emprise propre — UH SAIL, moyenne des deux verites;;calcul exp44;Q3;0.4956
+148159 batiments, 1558 signalements;emprise commune — notre T-stat, vs Copernicus;;calcul exp44;Q3;0.7268
+148159 batiments, 48 signalements;emprise commune — notre T-stat, vs ChatMap;;calcul exp44;Q3;0.7538
+;emprise commune — notre T-stat, moyenne des deux verites;;calcul exp44;Q3;0.7403
+63336 batiments, 728 signalements;emprise commune — BDPM (notre reproduction), vs Copernicus;;calcul exp44;Q3;0.7381
+63336 batiments, 29 signalements;emprise commune — BDPM (notre reproduction), vs ChatMap;;calcul exp44;Q3;0.7109
+;emprise commune — BDPM (notre reproduction), moyenne des deux verites;;calcul exp44;Q3;0.7245
+24025 batiments, 1149 signalements;emprise commune — EOS-RS, vs Copernicus;;calcul exp44;Q3;0.625
+24025 batiments, 35 signalements;emprise commune — EOS-RS, vs ChatMap;;calcul exp44;Q3;0.6601
+;emprise commune — EOS-RS, moyenne des deux verites;;calcul exp44;Q3;0.6426
+148159 batiments, 1558 signalements;emprise commune — OSU, vs Copernicus;;calcul exp44;Q3;0.7294
+148159 batiments, 48 signalements;emprise commune — OSU, vs ChatMap;;calcul exp44;Q3;0.7354
+;emprise commune — OSU, moyenne des deux verites;;calcul exp44;Q3;0.7324
+148159 batiments, 1558 signalements;emprise commune — NASA DRCS S1, vs Copernicus;;calcul exp44;Q3;0.511
+148159 batiments, 48 signalements;emprise commune — NASA DRCS S1, vs ChatMap;;calcul exp44;Q3;0.544
+;emprise commune — NASA DRCS S1, moyenne des deux verites;;calcul exp44;Q3;0.5275
+148159 batiments, 1558 signalements;emprise commune — NASA DRCS S2, vs Copernicus;;calcul exp44;Q3;0.7131
+148159 batiments, 48 signalements;emprise commune — NASA DRCS S2, vs ChatMap;;calcul exp44;Q3;0.7187
+;emprise commune — NASA DRCS S2, moyenne des deux verites;;calcul exp44;Q3;0.7159
+148159 batiments, 1558 signalements;emprise commune — IMPACT Initiatives, vs Copernicus;;calcul exp44;Q3;0.4958
+148159 batiments, 48 signalements;emprise commune — IMPACT Initiatives, vs ChatMap;;calcul exp44;Q3;0.4869
+;emprise commune — IMPACT Initiatives, moyenne des deux verites;;calcul exp44;Q3;0.4913
+148159 batiments, 1558 signalements;emprise commune — UNGSC, vs Copernicus;;calcul exp44;Q3;0.6505
+148159 batiments, 48 signalements;emprise commune — UNGSC, vs ChatMap;;calcul exp44;Q3;0.5999
+;emprise commune — UNGSC, moyenne des deux verites;;calcul exp44;Q3;0.6252
+57380 batiments, 1558 signalements;emprise commune — Microsoft AI for Good, vs Copernicus;;calcul exp44;Q3;0.5768
+57380 batiments, 40 signalements;emprise commune — Microsoft AI for Good, vs ChatMap;;calcul exp44;Q3;0.5897
+;emprise commune — Microsoft AI for Good, moyenne des deux verites;;calcul exp44;Q3;0.5832
+148159 batiments, 1558 signalements;emprise commune — fAIr HOTOSM, vs Copernicus;;calcul exp44;Q3;0.5942
+148159 batiments, 48 signalements;emprise commune — fAIr HOTOSM, vs ChatMap;;calcul exp44;Q3;0.6305
+;emprise commune — fAIr HOTOSM, moyenne des deux verites;;calcul exp44;Q3;0.6124
+29311 batiments, 983 signalements;emprise commune — DISHA, vs Copernicus;;calcul exp44;Q3;0.3816
+148159 batiments, 1558 signalements;emprise commune — UH SAIL, vs Copernicus;;calcul exp44;Q3;0.658
+148159 batiments, 48 signalements;emprise commune — UH SAIL, vs ChatMap;;calcul exp44;Q3;0.4686
+;emprise commune — UH SAIL, moyenne des deux verites;;calcul exp44;Q3;0.5633
+;T-stat x OSU — emprise commune (batiments);;calcul exp44;Q4;288208
+;T-stat x OSU — notre T-stat seul, moyenne des deux verites;;calcul exp44;Q4;0.7489
+;T-stat x OSU — OSU seul, moyenne des deux verites;;calcul exp44;Q4;0.7553
+;T-stat x OSU — fusion moyenne_ponderee, moyenne des deux verites;;calcul exp44;Q4;0.7717
+;T-stat x OSU — fusion moyenne, moyenne des deux verites;;calcul exp44;Q4;0.7719
+;T-stat x OSU — fusion maximum, moyenne des deux verites;;calcul exp44;Q4;0.6972
+;T-stat x OSU — fusion minimum, moyenne des deux verites;;calcul exp44;Q4;0.7659
+;T-stat x BDPM — emprise commune (batiments);;calcul exp44;Q4;80291
+;T-stat x BDPM — notre T-stat seul, moyenne des deux verites;;calcul exp44;Q4;0.7614
+;T-stat x BDPM — BDPM (notre reproduction) seul, moyenne des deux verites;;calcul exp44;Q4;0.7419
+;T-stat x BDPM — fusion moyenne_ponderee, moyenne des deux verites;;calcul exp44;Q4;0.7706
+;T-stat x BDPM — fusion moyenne, moyenne des deux verites;;calcul exp44;Q4;0.7715
+;T-stat x BDPM — fusion maximum, moyenne des deux verites;;calcul exp44;Q4;0.7313
+;T-stat x BDPM — fusion minimum, moyenne des deux verites;;calcul exp44;Q4;0.7577
+;T-stat x EOS-RS — emprise commune (batiments);;calcul exp44;Q4;29641
+;T-stat x EOS-RS — notre T-stat seul, moyenne des deux verites;;calcul exp44;Q4;0.7379
+;T-stat x EOS-RS — EOS-RS seul, moyenne des deux verites;;calcul exp44;Q4;0.6599
+;T-stat x EOS-RS — fusion moyenne_ponderee, moyenne des deux verites;;calcul exp44;Q4;0.7464
+;T-stat x EOS-RS — fusion moyenne, moyenne des deux verites;;calcul exp44;Q4;0.7408
+;T-stat x EOS-RS — fusion maximum, moyenne des deux verites;;calcul exp44;Q4;0.7238
+;T-stat x EOS-RS — fusion minimum, moyenne des deux verites;;calcul exp44;Q4;0.719
+;fusion des douze — emprise commune (batiments);;calcul exp44;Q4;5489
+148159 batiments;emprise commune — fusion T-stat x OSU (moyenne_ponderee);;calcul exp44;Q5;0.7635
+148159 batiments;emprise commune — fusion des douze (moyenne_ponderee);;calcul exp44;Q5;0.772
+emprise commune;ciblage — precision sur les 1000 premiers, T-stat seul (%);;calcul exp44;Q6;17.9
+emprise commune;ciblage — precision sur les 5000 premiers, T-stat seul (%);;calcul exp44;Q6;10.6
+emprise commune;ciblage — precision sur les 1000 premiers, fusion T-stat x OSU (%);;calcul exp44;Q6;13.8
+emprise commune;ciblage — precision sur les 5000 premiers, fusion T-stat x OSU (%);;calcul exp44;Q6;10.1
+emprise commune;ciblage — precision sur les 1000 premiers, fusion des douze (%);;calcul exp44;Q6;24.3
+emprise commune;ciblage — precision sur les 5000 premiers, fusion des douze (%);;calcul exp44;Q6;13.1
+474 detruits;balayage — part a relire pour 90 % des detruits, T-stat seul (%);;calcul exp44;Q6;32.2
+474 detruits;balayage — part a relire pour 95 % des detruits, T-stat seul (%);;calcul exp44;Q6;63.0
+474 detruits;balayage — part a relire pour 99 % des detruits, T-stat seul (%);;calcul exp44;Q6;87.6
+474 detruits;balayage — part a relire pour 90 % des detruits, fusion T-stat x OSU (%);;calcul exp44;Q6;22.4
+474 detruits;balayage — part a relire pour 95 % des detruits, fusion T-stat x OSU (%);;calcul exp44;Q6;39.5
+474 detruits;balayage — part a relire pour 99 % des detruits, fusion T-stat x OSU (%);;calcul exp44;Q6;65.4
+474 detruits;balayage — part a relire pour 90 % des detruits, fusion des douze (%);;calcul exp44;Q6;12.8
+474 detruits;balayage — part a relire pour 95 % des detruits, fusion des douze (%);;calcul exp44;Q6;25.7
+474 detruits;balayage — part a relire pour 99 % des detruits, fusion des douze (%);;calcul exp44;Q6;69.5

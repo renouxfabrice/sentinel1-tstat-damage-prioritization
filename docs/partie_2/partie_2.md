@@ -457,9 +457,9 @@ Le premier score est donc disponible plus tôt, mais avec une seule observation 
 
 ![Figure 7](figures/figure_7.png)
 
-**Figure 7 — Une seule image après l'événement : l'arbitrage, chiffré. À gauche, ce que l'image unique coûte zone par zone (AUC du z-score à 1 image contre le test de Welch à 3 images). À droite, ce que le passage d'une à trois images rapporte en délai : 2,5 jours contre 8,5 jours, pour une cible opérationnelle de 48 heures.**
+**Figure 7 — Une seule image après l'événement : l'arbitrage, chiffré. À gauche, ce que l'image unique coûte emprise par emprise : écart d'AUC entre le z-score à une image et la configuration à trois images, calculée en variance regroupée et orbites combinées par maximum, comme dans l'outil. À droite, ce que le passage d'une à trois images rapporte en délai : J+2,5 contre J+8,5, pour une cible opérationnelle de 48 heures. Figure recalculée le 1er octobre 2026 ; la version précédente comparait le z-score à un test de Welch, que l'outil ne calcule pas.**
 
-La figure montre que l'image unique ne produit pas systématiquement le meilleur classement. À AOI02, par exemple, le z-score obtient une AUC d'environ 0,74, tandis que le test de Welch atteint environ 0,72. À l'inverse, dans plusieurs zones, l'utilisation de trois images postérieures améliore légèrement le classement. Les différences restent toutefois limitées et varient selon les zones.
+La figure montre que l'image unique coûte toujours quelque chose, mais que ce coût varie d'un facteur dix selon l'emprise : −0,009 à Arlington, −0,023 à Bartons, −0,038 à White House, −0,072 à Catia La Mar et −0,102 à Caraballeda. Trois images postérieures classent donc mieux partout ; la question n'est pas de savoir si l'image unique dégrade le classement, mais si la dégradation reste acceptable au regard des six jours gagnés.
 
 Le gain du test à plusieurs images doit être mis en regard de son coût temporel. Dans l'expérience représentée à droite, le passage d'une image à trois images retarde le résultat d'environ 2,5 jours à environ 8,5 jours. Le délai supplémentaire est donc de l'ordre de six jours, alors que l'amélioration de l'AUC n'est ni systématique ni suffisamment importante pour justifier automatiquement cette attente dans une situation de première évaluation.
 

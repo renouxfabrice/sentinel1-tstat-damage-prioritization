@@ -72,9 +72,16 @@ fr <- function(x, n = 4, signe = TRUE) {
 # decimal est un point : c'est ce qu'ecrit `evaluation_commune.py`.
 # ------------------------------------------------------------------------------
 lire_resultat <- function(nom) {
-  chemin <- file.path("..", "resultats", nom)
-  if (!file.exists(chemin)) {
-    stop("Fichier introuvable : ", normalizePath(chemin, mustWork = FALSE),
+  # Dans le depot, les tables sont embarquees sous data/results. Dans le
+  # dossier de travail d'ou viennent ces programmes, elles sont dans
+  # ../resultats : les deux chemins sont acceptes, le depot d'abord.
+  candidats <- c(file.path("..", "..", "data", "results", nom),
+                 file.path("..", "resultats", nom))
+  chemin <- candidats[file.exists(candidats)][1]
+  if (is.na(chemin)) {
+    stop("Fichier introuvable :\n  ",
+         paste(normalizePath(candidats, mustWork = FALSE),
+               collapse = "\n  "),
          "\nLancez d'abord le programme d'evaluation correspondant.")
   }
   read.csv2(chemin, stringsAsFactors = FALSE, dec = ".")
